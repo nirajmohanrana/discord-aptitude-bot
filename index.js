@@ -9,7 +9,7 @@ const questions = jsonData.questions;
 
 // Set up the Discord webhook URL
 const webhookUrl =
-  "https://discord.com/api/webhooks/1111595854407671909/5qgrDMvBGQ4Z5_Gn-vllNdt2HUlA7FAgPkIsZhT6eEeGLsrWOyk_TPh4qwuql6hSEG4D";
+  "DISCORD_WEBHOOK";
 
 // Function to send questions to the Discord webhook
 const sendQuestions = () => {
