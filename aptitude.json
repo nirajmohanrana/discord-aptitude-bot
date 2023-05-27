@@ -1,0 +1,1257 @@
+{
+  "questions": [
+    {
+      "question": "Percentage 1: What is 25% of 80?",
+      "given": "Number: 80",
+      "answer": "Percentage: 20",
+      "explanation": "To find 25% of a number, multiply the number by the percentage as a decimal: (Percentage) = (Number) * (Percentage/100). Plugging in the given number as 80 and the percentage as 25, we find (Percentage) = 80 * (25/100) = 20.",
+      "solution": "To find a percentage of a number, multiply the number by the percentage as a decimal: (Percentage) = (Number) * (Percentage/100)."
+    },
+    {
+      "question": "Percentage 2: If a shirt is originally priced at $60 and is discounted by 20%, what is the sale price?",
+      "given": "Original price: $60",
+      "answer": "Sale price: $48",
+      "explanation": "To find the sale price after a discount, subtract the discount amount from the original price: (Sale price) = (Original price) - (Original price * Discount percentage/100). Plugging in the given original price as $60 and the discount percentage as 20%, we find (Sale price) = $60 - ($60 * 20/100) = $48.",
+      "solution": "To find the sale price after a discount, subtract the discount amount from the original price: (Sale price) = (Original price) - (Original price * Discount percentage/100)."
+    },
+    {
+      "question": "Percentage 3: If a price increased from $80 to $100, what is the percentage increase?",
+      "given": "Initial price: $80, Final price: $100",
+      "answer": "Percentage increase: 25%",
+      "explanation": "To find the percentage increase, divide the increase in price by the initial price and multiply by 100: (Percentage increase) = ((Final price - Initial price) / Initial price) * 100. Plugging in the given initial price as $80 and the final price as $100, we find (Percentage increase) = (($100 - $80) / $80) * 100 = 25%.",
+      "solution": "To find the percentage increase, divide the increase in price by the initial price and multiply by 100: (Percentage increase) = ((Final price - Initial price) / Initial price) * 100."
+    },
+    {
+      "question": "Percentage 4: A car is sold for $12,000, which is a 20% profit over the cost price. What is the cost price of the car?",
+      "given": "Selling price: $12,000, Profit percentage: 20%",
+      "answer": "Cost price: $10,000",
+      "explanation": "To find the cost price given a selling price and profit percentage, divide the selling price by (1 + profit percentage/100): (Cost price) = (Selling price) / (1 + Profit percentage/100). Plugging in the given selling price as $12,000 and the profit percentage as 20%, we find (Cost price) = $12,000 / (1 + 20/100) = $10,000.",
+      "solution": "To find the cost price given a selling price and profit percentage, divide the selling price by (1 + profit percentage/100)."
+    },
+    {
+      "question": "Percentage 5: If a population increases from 10,000 to 12,000, what is the percentage increase?",
+      "given": "Initial population: 10,000, Final population: 12,000",
+      "answer": "Percentage increase: 20%",
+      "explanation": "To find the percentage increase in population, divide the increase in population by the initial population and multiply by 100: (Percentage increase) = ((Final population - Initial population) / Initial population) * 100. Plugging in the given initial population as 10,000 and the final population as 12,000, we find (Percentage increase) = ((12,000 - 10,000) / 10,000) * 100 = 20%.",
+      "solution": "To find the percentage increase in population, divide the increase in population by the initial population and multiply by 100."
+    },
+    {
+      "question": "Percentage 6: If a price decreased from $120 to $96, what is the percentage decrease?",
+      "given": "Initial price: $120, Final price: $96",
+      "answer": "Percentage decrease: 20%",
+      "explanation": "To find the percentage decrease, divide the decrease in price by the initial price and multiply by 100: (Percentage decrease) = ((Initial price - Final price) / Initial price) * 100. Plugging in the given initial price as $120 and the final price as $96, we find (Percentage decrease) = (($120 - $96) / $120) * 100 = 20%.",
+      "solution": "To find the percentage decrease, divide the decrease in price by the initial price and multiply by 100."
+    },
+    {
+      "question": "Percentage 7: If a salary increased from $50,000 to $55,000, what is the percentage increase?",
+      "given": "Initial salary: $50,000, Final salary: $55,000",
+      "answer": "Percentage increase: 10%",
+      "explanation": "To find the percentage increase in salary, divide the increase in salary by the initial salary and multiply by 100: (Percentage increase) = ((Final salary - Initial salary) / Initial salary) * 100. Plugging in the given initial salary as $50,000 and the final salary as $55,000, we find (Percentage increase) = (($55,000 - $50,000) / $50,000) * 100 = 10%.",
+      "solution": "To find the percentage increase in salary, divide the increase in salary by the initial salary and multiply by 100."
+    },
+    {
+      "question": "Percentage 8: If a discount of 30% is applied to a price, what percentage of the original price remains?",
+      "given": "Discount percentage: 30%",
+      "answer": "Percentage of original price remaining: 70%",
+      "explanation": "To find the percentage of the original price remaining after a discount, subtract the discount percentage from 100%: (Percentage of original price remaining) = 100% - (Discount percentage). Plugging in the given discount percentage as 30%, we find (Percentage of original price remaining) = 100% - 30% = 70%.",
+      "solution": "To find the percentage of the original price remaining after a discount, subtract the discount percentage from 100%."
+    },
+    {
+      "question": "Percentage 9: If an amount increased from $200 to $240, what is the percentage increase?",
+      "given": "Initial amount: $200, Final amount: $240",
+      "answer": "Percentage increase: 20%",
+      "explanation": "To find the percentage increase, divide the increase in amount by the initial amount and multiply by 100: (Percentage increase) = ((Final amount - Initial amount) / Initial amount) * 100. Plugging in the given initial amount as $200 and the final amount as $240, we find (Percentage increase) = (($240 - $200) / $200) * 100 = 20%.",
+      "solution": "To find the percentage increase, divide the increase in amount by the initial amount and multiply by 100."
+    },
+    {
+      "question": "Percentage 10: If the tax rate is 8% and the cost of an item is $80, what is the total cost including tax?",
+      "given": "Item cost: $80, Tax rate: 8%",
+      "answer": "Total cost including tax: $86.40",
+      "explanation": "To find the total cost including tax, add the product of the cost and tax rate to the original cost: (Total cost including tax) = (Item cost) + (Item cost * Tax rate/100). Plugging in the given item cost as $80 and the tax rate as 8%, we find (Total cost including tax) = $80 + ($80 * 8/100) = $86.40.",
+      "solution": "To find the total cost including tax, add the product of the cost and tax rate to the original cost."
+    },
+    {
+      "question": "Percentage 11: If a test consists of 50 questions and a student answered 40 questions correctly, what is the percentage score?",
+      "given": "Number of questions: 50, Correctly answered: 40",
+      "answer": "Percentage score: 80%",
+      "explanation": "To find the percentage score, divide the number of correctly answered questions by the total number of questions and multiply by 100: (Percentage score) = (Correctly answered / Total questions) * 100. Plugging in the given number of questions as 50 and the number of correctly answered questions as 40, we find (Percentage score) = (40 / 50) * 100 = 80%.",
+      "solution": "To find the percentage score, divide the number of correctly answered questions by the total number of questions and multiply by 100."
+    },
+    {
+      "question": "Percentage 12: If an investment grows from $1,000 to $1,500 over 3 years, what is the average annual growth rate?",
+      "given": "Initial investment: $1,000, Final investment: $1,500, Time period: 3 years",
+      "answer": "Average annual growth rate: 16.67%",
+      "explanation": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100: (Average annual growth rate) = ((Final investment - Initial investment) / Initial investment) * (1 / Time period) * 100. Plugging in the given initial investment as $1,000, the final investment as $1,500, and the time period as 3 years, we find (Average annual growth rate) = (($1,500 - $1,000) / $1,000) * (1 / 3) * 100 = 16.67%.",
+      "solution": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100."
+    },
+    {
+      "question": "Percentage 13: If a solution is composed of 30% vinegar and 70% water, how much vinegar is present in 200 ml of the solution?",
+      "given": "Total solution volume: 200 ml, Vinegar concentration: 30%",
+      "answer": "Vinegar amount: 60 ml",
+      "explanation": "To find the amount of vinegar in the solution, multiply the total solution volume by the vinegar concentration as a decimal: (Vinegar amount) = (Total solution volume) * (Vinegar concentration/100). Plugging in the given total solution volume as 200 ml and the vinegar concentration as 30%, we find (Vinegar amount) = 200 ml * (30/100) = 60 ml.",
+      "solution": "To find the amount of vinegar in the solution, multiply the total solution volume by the vinegar concentration as a decimal."
+    },
+    {
+      "question": "Percentage 14: If a company's revenue increased from $500,000 to $600,000, what is the percentage increase in revenue?",
+      "given": "Initial revenue: $500,000, Final revenue: $600,000",
+      "answer": "Percentage increase in revenue: 20%",
+      "explanation": "To find the percentage increase in revenue, divide the increase in revenue by the initial revenue and multiply by 100: (Percentage increase in revenue) = ((Final revenue - Initial revenue) / Initial revenue) * 100. Plugging in the given initial revenue as $500,000 and the final revenue as $600,000, we find (Percentage increase in revenue) = (($600,000 - $500,000) / $500,000) * 100 = 20%.",
+      "solution": "To find the percentage increase in revenue, divide the increase in revenue by the initial revenue and multiply by 100."
+    },
+    {
+      "question": "Percentage 15: If a product's price decreased from $200 to $180, what is the percentage decrease in price?",
+      "given": "Initial price: $200, Final price: $180",
+      "answer": "Percentage decrease in price: 10%",
+      "explanation": "To find the percentage decrease in price, divide the decrease in price by the initial price and multiply by 100: (Percentage decrease in price) = ((Initial price - Final price) / Initial price) * 100. Plugging in the given initial price as $200 and the final price as $180, we find (Percentage decrease in price) = (($200 - $180) / $200) * 100 = 10%.",
+      "solution": "To find the percentage decrease in price, divide the decrease in price by the initial price and multiply by 100."
+    },
+    {
+      "question": "Percentage 16: If an item's price increased from $80 to $96, what is the percentage increase?",
+      "given": "Initial price: $80, Final price: $96",
+      "answer": "Percentage increase: 20%",
+      "explanation": "To find the percentage increase, divide the increase in price by the initial price and multiply by 100: (Percentage increase) = ((Final price - Initial price) / Initial price) * 100. Plugging in the given initial price as $80 and the final price as $96, we find (Percentage increase) = (($96 - $80) / $80) * 100 = 20%.",
+      "solution": "To find the percentage increase, divide the increase in price by the initial price and multiply by 100."
+    },
+    {
+      "question": "Percentage 17: If a quantity decreased from 120 to 100, what is thepercentage decrease?",
+      "given": "Initial quantity: 120, Final quantity: 100",
+      "answer": "Percentage decrease: 16.67%",
+      "explanation": "To find the percentage decrease, divide the decrease in quantity by the initial quantity and multiply by 100: (Percentage decrease) = ((Initial quantity - Final quantity) / Initial quantity) * 100. Plugging in the given initial quantity as 120 and the final quantity as 100, we find (Percentage decrease) = ((120 - 100) / 120) * 100 = 16.67%.",
+      "solution": "To find the percentage decrease, divide the decrease in quantity by the initial quantity and multiply by 100."
+    },
+    {
+      "question": "Percentage 18: If a team won 8 out of 10 games, what is their winning percentage?",
+      "given": "Number of games won: 8, Total games played: 10",
+      "answer": "Winning percentage: 80%",
+      "explanation": "To find the winning percentage, divide the number of games won by the total games played and multiply by 100: (Winning percentage) = (Number of games won / Total games played) * 100. Plugging in the given number of games won as 8 and the total games played as 10, we find (Winning percentage) = (8 / 10) * 100 = 80%.",
+      "solution": "To find the winning percentage, divide the number of games won by the total games played and multiply by 100."
+    },
+    {
+      "question": "Percentage 19: If a store offers a discount of 25% on a $200 product, what is the sale price?",
+      "given": "Original price: $200, Discount percentage: 25%",
+      "answer": "Sale price: $150",
+      "explanation": "To find the sale price after a discount, subtract the discount amount from the original price: (Sale price) = (Original price) - (Original price * Discount percentage/100). Plugging in the given original price as $200 and the discount percentage as 25%, we find (Sale price) = $200 - ($200 * 25/100) = $150.",
+      "solution": "To find the sale price after a discount, subtract the discount amount from the original price."
+    },
+    {
+      "question": "Percentage 20: If an investment grew from $1,000 to $1,200 over 2 years, what is the average annual growth rate?",
+      "given": "Initial investment: $1,000, Final investment: $1,200, Time period: 2 years",
+      "answer": "Average annual growth rate: 10%",
+      "explanation": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100: (Average annual growth rate) = ((Final investment - Initial investment) / Initial investment) * (1 / Time period) * 100. Plugging in the given initial investment as $1,000, the final investment as $1,200, and the time period as 2 years, we find (Average annual growth rate) = (($1,200 - $1,000) / $1,000) * (1 / 2) * 100 = 10%.",
+      "solution": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100."
+    },
+    {
+      "question": "Percentage 21: If a restaurant bill is $80 and a 15% tip is added, what is the total amount?",
+      "given": "Restaurant bill: $80, Tip percentage: 15%",
+      "answer": "Total amount: $92",
+      "explanation": "To find the total amount, add the product of the bill and tip percentage to the original bill: (Total amount) = (Restaurant bill) + (Restaurant bill * Tip percentage/100). Plugging in the given restaurant bill as $80 and the tip percentage as 15%, we find (Total amount) = $80 + ($80 * 15/100) = $92.",
+      "solution": "To find the total amount, add the product of the bill and tip percentage to the original bill."
+    },
+    {
+      "question": "Percentage 22: If a population increased from 1,000 to 1,200, what is the percentage increase?",
+      "given": "Initial population: 1,000, Final population: 1,200",
+      "answer": "Percentage increase: 20%",
+      "explanation": "To find the percentage increase in population, divide the increase in population by the initial population and multiply by 100: (Percentage increase) = ((Final population - Initial population) / Initial population) * 100. Plugging in the given initial population as 1,000 and the final population as 1,200, we find (Percentage increase) = ((1,200 - 1,000) / 1,000) * 100 = 20%.",
+      "solution": "To find the percentage increase in population, divide the increase in population by the initial population and multiply by 100."
+    },
+    {
+      "question": "Percentage 23: If a price decreased from $120 to $96, what is the percentage decrease?",
+      "given": "Initial price: $120, Final price: $96",
+      "answer": "Percentage decrease: 20%",
+      "explanation": "To find the percentage decrease, divide the decrease in price by the initial price and multiply by 100: (Percentage decrease) = ((Initial price - Final price) / Initial price) * 100. Plugging in the given initial price as $120 and the final price as $96, we find (Percentage decrease) = (($120 - $96) / $120) * 100 = 20%.",
+      "solution": "To find the percentage decrease, divide the decrease in price by the initial price and multiply by 100."
+    },
+    {
+      "question": "Percentage 24: If a salary increased from $50,000 to $55,000, what is the percentage increase?",
+      "given": "Initial salary: $50,000, Final salary: $55,000",
+      "answer": "Percentage increase: 10%",
+      "explanation": "To find the percentage increase in salary, divide the increase in salary by the initial salary and multiply by 100: (Percentage increase) = ((Final salary - Initial salary) / Initial salary) * 100. Plugging in the given initial salary as $50,000 and the final salary as $55,000, we find (Percentage increase) = (($55,000 - $50,000) / $50,000) * 100 = 10%.",
+      "solution": "To find the percentage increase in salary, divide the increase in salary by the initial salary and multiply by 100."
+    },
+    {
+      "question": "Percentage 25: If a discount of 30% is applied to a price, what percentage of the original price remains?",
+      "given": "Discount percentage: 30%",
+      "answer": "Percentage of original price remaining: 70%",
+      "explanation": "To find the percentage of the original price remaining after a discount, subtract the discount percentage from 100%: (Percentage of original price remaining) = 100% - (Discount percentage). Plugging in the given discount percentage as 30%, we find (Percentage of original price remaining) = 100% - 30% = 70%.",
+      "solution": "To find the percentage of the original price remaining after a discount, subtract the discount percentage from 100%."
+    },
+    {
+      "question": "Percentage 26: If a test has 80 questions and a student answered 60 questions correctly, what is the percentage score?",
+      "given": "Number of questions: 80, Correctly answered: 60",
+      "answer": "Percentage score: 75%",
+      "explanation": "To find the percentage score, divide the number of correctly answered questions by the total number of questions and multiply by 100: (Percentage score) = (Correctly answered / Total questions) * 100. Plugging in the given number of questions as 80 and the number of correctly answered questions as 60, we find (Percentage score) = (60 / 80) * 100 = 75%.",
+      "solution": "To find the percentage score, divide the number of correctly answered questions by the total number of questions and multiply by 100."
+    },
+    {
+      "question": "Percentage 27: If a solution is composed of 20% solute and 80% solvent, how much solute is present in 500 ml of the solution?",
+      "given": "Total solution volume: 500 ml, Solute concentration: 20%",
+      "answer": "Solute amount: 100 ml",
+      "explanation": "To find the amount of solute in the solution, multiply the total solution volume by the solute concentration as a decimal: (Solute amount) = (Total solution volume) * (Solute concentration/100). Plugging in the given total solution volume as 500 ml and the solute concentration as 20%, we find (Solute amount) = 500 ml * (20/100) = 100 ml.",
+      "solution": "To find the amount of solute in the solution, multiply the total solution volume by the solute concentration as a decimal."
+    },
+    {
+      "question": "Percentage 28: If a store offers a discount of 20% on a $100 product, what is the sale price?",
+      "given": "Original price: $100, Discount percentage: 20%",
+      "answer": "Sale price: $80",
+      "explanation": "To find the sale price after a discount, subtract the discount amount from the original price: (Sale price) = (Original price) - (Original price * Discount percentage/100). Plugging in the given original price as $100 and the discount percentage as 20%, we find (Sale price) = $100 - ($100 * 20/100) = $80.",
+      "solution": "To find the sale price after a discount, subtract the discount amount from the original price."
+    },
+    {
+      "question": "Percentage 29: If an investment grew from $1,000 to $1,100 over 2 years, what is the average annual growth rate?",
+      "given": "Initial investment: $1,000, Final investment: $1,100, Time period: 2 years",
+      "answer": "Average annual growth rate: 5%",
+      "explanation": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100: (Average annual growth rate) = ((Final investment - Initial investment) / Initial investment) * (1 / Time period) * 100. Plugging in the given initial investment as $1,000, the final investment as $1,100, and the time period as 2 years, we find (Average annual growth rate) = (($1,100 - $1,000) / $1,000) * (1 / 2) * 100 = 5%.",
+      "solution": "To find the average annual growth rate, divide the increase in investment by the initial investment, divide by the number of years, and multiply by 100."
+    },
+    {
+      "question": "Percentage 30: If a product is initially priced at $50 and the price increases by 25%, what is the final price?",
+      "given": "Initial price: $50, Price increase percentage: 25%",
+      "answer": "Final price: $62.50",
+      "explanation": "To find the final price after a percentage increase, multiply the initial price by the sum of 1 and the percentage increase as a decimal: (Final price) = (Initial price) * (1 + Price increase percentage/100). Plugging in the given initial price as $50 and the price increase percentage as 25%, we find (Final price) = $50 * (1 + 25/100) = $62.50.",
+      "solution": "To find the final price after a percentage increase, multiply the initial price by the sum of 1 and the percentage increase as a decimal."
+    },
+    {
+      "question": "Average 1: The average weight of 4 friends is 60 kg. If a fifth friend joins the group with a weight of 70 kg, what is the new average weight?",
+      "given": "Number of friends: 4, Average weight: 60 kg, Weight of fifth friend: 70 kg",
+      "answer": "New average weight: 62 kg",
+      "explanation": "To find the new average weight, calculate the sum of the weights of all friends, including the fifth friend, and divide it by the total number of friends: (New average weight) = (Sum of weights of all friends) / (Total number of friends). Plugging in the given average weight as 60 kg, the number of friends as 4, and the weight of the fifth friend as 70 kg, we find (New average weight) = (60 kg * 4 + 70 kg) / 5 = 62 kg.",
+      "solution": "To find the new average weight, calculate the sum of the weights of all friends, including the new friend, and divide it by the total number of friends."
+    },
+    {
+      "question": "Average 2: The average age of a family of 5 members is 30 years. If the age of the youngest member is 10 years, what is the average age of the remaining family members?",
+      "given": "Number of family members: 5, Average age: 30 years, Age of youngest member: 10 years",
+      "answer": "Average age of remaining family members: 36 years",
+      "explanation": "To find the average age of the remaining family members, calculate the sum of the ages of all family members and subtract the age of the youngest member, then divide it by the number of remaining family members: (Average age of remaining family members) = (Sum of ages of all family members - Age of youngest member) / (Number of remaining family members). Plugging in the given average age as 30 years, the number of family members as 5, and the age of the youngest member as 10 years, we find (Average age of remaining family members) = (30 years * 5 - 10 years) / 4 = 36 years.",
+      "solution": "To find the average age of the remaining family members, calculate the sum of the ages of all family members and subtract the age of the youngest member, then divide it by the number of remaining family members."
+    },
+    {
+      "question": "Average 3: The average score of a cricket team in the first 5 matches is 250 runs. If the team scores 300 runs in the sixth match, what is the new average score?",
+      "given": "Number of matches: 5, Average score: 250 runs, Score in the sixth match: 300 runs",
+      "answer": "New average score: 260 runs",
+      "explanation": "To find the new average score, calculate the sum of the scores in all matches, including the sixth match, and divide it by the total number of matches: (New average score) = (Sum of scores in all matches) / (Total number of matches). Plugging in the given average score as 250 runs, the number of matches as 5, and the score in the sixth match as 300 runs, we find (New average score) = (250 runs * 5 + 300 runs) / 6 = 260 runs.",
+      "solution": "To find the new average score, calculate the sum of the scores in all matches, including the new match, and divide it by the total number of matches."
+    },
+    {
+      "question": "Average 4: The average temperature of a city for 10 days is 30 degrees Celsius. If the average temperature for the first 5 days is 25 degrees Celsius, what is the average temperature for the remaining days?",
+      "given": "Number of days: 10, Average temperature: 30 degrees Celsius, Average temperature for the first 5 days: 25 degrees Celsius",
+      "answer": "Average temperature for the remaining days: 35 degrees Celsius",
+      "explanation": "To find the average temperature for the remaining days, calculate the sum of the temperatures for all days and subtract the sum of the temperatures for the first 5 days, then divide it by the number of remaining days: (Average temperature for the remaining days) = (Sum of temperatures for all days - Sum of temperatures for the first 5 days) / (Number of remaining days). Plugging in the given average temperature as 30 degrees Celsius, the number of days as 10, and the average temperature for the first 5 days as 25 degrees Celsius, we find (Average temperature for the remaining days) = ((30 degrees Celsius * 10) - (25 degrees Celsius * 5)) / 5 = 35 degrees Celsius.",
+      "solution": "To find the average temperature for the remaining days, calculate the sum of the temperatures for all days and subtract the sum of the temperatures for the first set of days, then divide it by the number of remaining days."
+    },
+    {
+      "question": "Average 5: The average marks of a class of 20 students in a mathematics test is 80. If the marks of the top 5 students are removed, what is the new average marks?",
+      "given": "Number of students: 20, Average marks: 80, Number of top students: 5",
+      "answer": "New average marks: 74",
+      "explanation": "To find the new average marks, calculate the sum of the marks of all students and subtract the sum of the marks of the top students, then divide it by the number of remaining students: (New average marks) = (Sum of marks of all students - Sum of marks of top students) / (Number of remaining students). Plugging in the given average marks as 80, the number of students as 20, and the number of top students as 5, we find (New average marks) = ((80 * 20) - (100 * 5)) / 15 = 74.",
+      "solution": "To find the new average marks, calculate the sum of the marks of all students and subtract the sum of the marks of the top students, then divide it by the number of remaining students."
+    },
+    {
+      "question": "Average 6: The average height of 30 students is 160 cm. If the heights of the tallest and shortest students are removed, what is the new average height?",
+      "given": "Number of students: 30, Average height: 160 cm",
+      "answer": "New average height: 157.5 cm",
+      "explanation": "To find the new average height, calculate the sum of the heights of all students and subtract the heights of the tallest and shortest students, then divide it by the number of remaining students: (New average height) = (Sum of heights of all students - Sum of heights of tallest and shortest students) / (Number of remaining students). Plugging in the given average height as 160 cm and the number of students as 30, we find (New average height) = (160 cm * 30 - (Tallest height + Shortest height)) / 28 = 157.5 cm.",
+      "solution": "To find the new average height, calculate the sum of the heights of all students and subtract the heights of the tallest and shortest students, then divide it by the number of remaining students."
+    },
+    {
+      "question": "Average 7: The average speed of a car for a 4-hour journey is 60 km/h. If the car traveled at a speed of 80 km/h for the first 2 hours, what is the average speed for the remaining journey?",
+      "given": "Total journey time: 4 hours, Average speed: 60 km/h, Speed for the first 2 hours: 80 km/h",
+      "answer": "Average speed for the remaining journey: 50 km/h",
+      "explanation": "To find the average speed for the remaining journey, calculate the total distance traveled for the remaining time and divide it by the remaining time: (Average speed for the remaining journey) = (Total distance traveled - Distance traveled for the first 2 hours) / (Remaining time). Since average speed is defined as total distance divided by total time, we can use the formula (Average speed) = (Total distance) / (Total time) to find the total distance. Plugging in the given average speed as 60 km/h, the total journey time as 4 hours, and the speed for the first 2 hours as 80 km/h, we find (Average speed for the remaining journey) = ((60 km/h * 4 hours) - (80 km/h * 2 hours)) / 2 hours = 50 km/h.",
+      "solution": "To find the average speed for the remaining journey, calculate the total distance traveled for the remaining time and divide it by the remaining time."
+    },
+    {
+      "question": "Average 8: The average salary of a company's employees is $50,000. If the average salary of male employees is $60,000 and the average salary of female employees is $40,000, what is the ratio of male to female employees in the company?",
+      "given": "Average salary: $50,000, Average salary of male employees: $60,000, Average salary of female employees: $40,000",
+      "answer": "Ratio of male to female employees: 2:3",
+      "explanation": "To find the ratio of male to female employees, calculate the difference between the average salary of male employees and the overall average salary, and divide it by the difference between the overall average salary and the average salary of female employees. Then simplify the ratio. Plugging in the given average salary as $50,000, the average salary of male employees as $60,000, and the average salary of female employees as $40,000, we find the ratio of male to female employees as (60,000 - 50,000) : (50,000 - 40,000) = 10,000 : 10,000 = 2:3.",
+      "solution": "To find the ratio of male to female employees, calculate the difference between the average salary of male employees and the overall average salary, and divide it by the difference between the overall average salary and the average salary of female employees. Then simplify the ratio."
+    },
+    {
+      "question": "Average 9: The average score of a basketball team in 10 games is 80 points. If the team scored 90 points in the first 5 games, what is the average score for the remaining games?",
+      "given": "Number of games: 10, Average score: 80 points, Score in the first 5 games: 90 points",
+      "answer": "Average score for the remaining games: 75 points",
+      "explanation": "To find the average score for the remaining games, calculate the sum of the scores in all games and subtract the sum of the scores in the first 5 games, then divide it by the number of remaining games: (Average score for the remaining games) = (Sum of scores in all games - Sum of scores in the first 5 games) / (Number of remaining games). Plugging in the given average score as 80 points, the number of games as 10, and the score in the first 5 games as 90 points, we find (Average score for the remaining games) = ((80 points * 10) - (90 points * 5)) / 5 = 75 points.",
+      "solution": "To find the average score for the remaining games, calculate the sum of the scores in all games and subtract the sum of the scores in the first set of games, then divide it by the number of remaining games."
+    },
+    {
+      "question": "Average 10: The average age of a group of 8 friends is 25 years. If a new friend, whose age is 30 years, joins the group, what is the new average age?",
+      "given": "Number of friends: 8, Average age: 25 years, Age of new friend: 30 years",
+      "answer": "New average age: 26 years",
+      "explanation": "To find the new average age, calculate the sum of the ages of all friends, including the new friend, and divide it by the total number of friends: (New average age) = (Sum of ages of all friends) / (Total number of friends). Plugging in the given average age as 25 years, the number of friends as 8, and the age of the new friend as 30 years, we find (New average age) = (25 years * 8 + 30 years) / 9 = 26 years.",
+      "solution": "To find the new average age, calculate the sum of the ages of all friends, including the new friend, and divide it by the total number of friends."
+    },
+    {
+      "question": "Average 11: The average price of a stock for the first 4 days is $50. If the stock price for the fifth day is $60, what is the new average price?",
+      "given": "Number of days: 4, Average price: $50, Price on the fifth day: $60",
+      "answer": "New average price: $52",
+      "explanation": "To find the new average price, calculate the sum of the prices for all days, including the fifth day, and divide it by the total number of days: (New average price) = (Sum of prices for all days) / (Total number of days). Plugging in the given average price as $50, the number of days as 4, and the price on the fifth day as $60, we find (New average price) = ($50 * 4 + $60) / 5 = $52.",
+      "solution": "To find the new average price, calculate the sum of the prices for all days, including the new day, and divide it by the total number of days."
+    },
+    {
+      "question": "Average 12: The average speed of a train for a 2-hour journey is 80 km/h. If the train traveled at a speed of 100 km/h for the first hour, what is the average speed for the remaining journey?",
+      "given": "Total journey time: 2 hours, Average speed: 80 km/h, Speed for the first hour: 100 km/h",
+      "answer": "Average speed for the remaining journey: 60 km/h",
+      "explanation": "To find the average speed for the remaining journey, calculate the total distance traveled for the remaining time and divide it by the remaining time: (Average speed for the remaining journey) = (Total distance traveled - Distance traveled for the first hour) / (Remaining time). Since average speed is defined as total distance divided by total time, we can use the formula (Average speed) = (Total distance) / (Total time) to find the total distance. Plugging in the given average speed as 80 km/h, the total journey time as 2 hours, and the speed for the first hour as 100 km/h, we find (Average speed for the remaining journey) = ((80 km/h * 2 hours) - (100 km/h * 1 hour)) / 1 hour = 60 km/h.",
+      "solution": "To find the average speed for the remaining journey, calculate the total distance traveled for the remaining time and divide it by the remaining time."
+    },
+    {
+      "question": "Average 13: The average height of a group of 6 people is 170 cm. If a person with a height of 180 cm joins the group, what is the new average height?",
+      "given": "Number of people: 6, Average height: 170 cm, Height of new person: 180 cm",
+      "answer": "New average height: 173.33 cm",
+      "explanation": "To find the new average height, calculate the sum of the heights of all people, including the new person, and divide it by the total number of people: (New average height) = (Sum of heights of all people) / (Total number of people). Plugging in the given average height as 170 cm, the number of people as 6, and the height of the new person as 180 cm, we find (New average height) = (170 cm * 6 + 180 cm) / 7 = 173.33 cm (rounded to two decimal places).",
+      "solution": "To find the new average height, calculate the sum of the heights of all people, including the new person, and divide it by the total number of people."
+    },
+    {
+      "question": "Average 14: The average score of a student in 5 subjects is 80 marks. If the student scores 90 marks in the first subject, what is the average score for the remaining subjects?",
+      "given": "Number of subjects: 5, Average score: 80 marks, Score in the first subject: 90 marks",
+      "answer": "Average score for the remaining subjects: 78 marks",
+      "explanation": "To find the average score for the remaining subjects, calculate the sum of the scores in all subjects and subtract the score in the first subject, then divide it by the number of remaining subjects: (Average score for the remaining subjects) = (Sum of scores in all subjects - Score in the first subject) / (Number of remaining subjects). Plugging in the given average score as 80 marks, the number of subjects as 5, and the score in the first subject as 90 marks, we find (Average score for the remaining subjects) = ((80 marks * 5) - 90 marks) / 4 = 78 marks.",
+      "solution": "To find the average score for the remaining subjects, calculate the sum of the scores in all subjects and subtract the score in the first subject, then divide it by the number of remaining subjects."
+    },
+    {
+      "question": "Average 15: The average weight of a group of 12 people is 70 kg. If a person with a weight of 80 kg joins the group, what is the new average weight?",
+      "given": "Number of people: 12, Average weight: 70 kg, Weight of new person: 80 kg",
+      "answer": "New average weight: 70.83 kg",
+      "explanation": "To find the new average weight, calculate the sum of the weights of all people, including the new person, and divide it by the total number of people: (New average weight) = (Sum of weights of all people) / (Total number of people). Plugging in the given average weight as 70 kg, the number of people as 12, and the weight of the new person as 80 kg, we find (New average weight) = (70 kg * 12 + 80 kg) / 13 = 70.83 kg (rounded to two decimal places).",
+      "solution": "To find the new average weight, calculate the sum of the weights of all people, including the new person, and divide it by the total number of people."
+    },
+    {
+      "question": "Average 16: The average age of a group of 5 friends is 30 years. If a friend, whose age is 25 years, leaves the group, what is the new average age?",
+      "given": "Number of friends: 5, Average age: 30 years, Age of friend leaving the group: 25 years",
+      "answer": "New average age: 33 years",
+      "explanation": "To find the new average age, calculate the sum of the ages of all friends and subtract the age of the friend leaving the group, then divide it by the total number of friends: (New average age) = (Sum of ages of all friends - Age of friend leaving the group) / (Total number of friends). Plugging in the given average age as 30 years, the number of friends as 5, and the age of the friend leaving the group as 25 years, we find (New average age) = ((30 years * 5) - 25 years) / 4 = 33 years.",
+      "solution": "To find the new average age, calculate the sum of the ages of all friends and subtract the age of the friend leaving the group, then divide it by the total number of friends."
+    },
+    {
+      "question": "Average 17: The average temperature of a city for 7 days is 25 degrees Celsius. If the average temperature for the first 3 days is 20 degrees Celsius, what is the average temperature for the remaining days?",
+      "given": "Number of days: 7, Average temperature: 25 degrees Celsius, Average temperature for the first 3 days: 20 degrees Celsius",
+      "answer": "Average temperature for the remaining days: 29 degrees Celsius",
+      "explanation": "To find the average temperature for the remaining days, calculate the sum of the temperatures for all days and subtract the sum of the temperatures for the first 3 days, then divide it by the number of remaining days: (Average temperature for the remaining days) = (Sum of temperatures for all days - Sum of temperatures for the first 3 days) / (Number of remaining days). Plugging in the given average temperature as 25 degrees Celsius, the number of days as 7, and the average temperature for the first 3 days as 20 degrees Celsius, we find (Average temperature for the remaining days) = ((25 degrees Celsius * 7) - (20 degrees Celsius * 3)) / 4 = 29 degrees Celsius.",
+      "solution": "To find the average temperature for the remaining days, calculate the sum of the temperatures for all days and subtract the sum of the temperatures for the first set of days, then divide it by the number of remaining days."
+    },
+    {
+      "question": "Average 18: The average age of a family of 4 members is 35 years. If the average age of the parents is 40 years, what is the average age of the children?",
+      "given": "Number of family members: 4, Average age: 35 years, Average age of parents: 40 years",
+      "answer": "Average age of the children: 30 years",
+      "explanation": "To find the average age of the children, calculate the difference between the average age of the family and the average age of the parents. Plugging in the given average age as 35 years and the average age of the parents as 40 years, we find the average age of the children as 35 years - 40 years = -5 years. However, since age cannot be negative, the average age of the children is 0 years. This suggests that the children's ages are not specified or that there are no children in the family.",
+      "solution": "To find the average age of the children, calculate the difference between the average age of the family and the average age of the parents."
+    },
+    {
+      "question": "Average 19: The average income of a group of 6 people is $50,000. If a person with an income of $60,000 joins the group, what is the new average income?",
+      "given": "Number of people: 6, Average income: $50,000, Income of new person: $60,000",
+      "answer": "New average income: $53,333.33",
+      "explanation": "To find the new average income, calculate the sum of the incomes of all people, including the new person, and divide it by the total number of people: (New average income) = (Sum of incomes of all people) / (Total number of people). Plugging in the given average income as $50,000, the number of people as 6, and the income of the new person as $60,000, we find (New average income) = ($50,000 * 6 + $60,000) / 7 = $53,333.33 (rounded to two decimal places).",
+      "solution": "To find the new average income, calculate the sum of the incomes of all people, including the new person, and divide it by the total number of people."
+    },
+    {
+      "question": "Average 20: The average score of a student in 4 tests is 85 marks. If the student scores 90 marks in the first test, what is the average score for the remaining tests?",
+      "given": "Number of tests: 4, Average score: 85 marks, Score in the first test: 90 marks",
+      "answer": "Average score for the remaining tests: 83.33 marks",
+      "explanation": "To find the average score for the remaining tests, calculate the sum of the scores in all tests and subtract the score in the first test, then divide it by the number of remaining tests: (Average score for the remaining tests) = (Sum of scores in all tests - Score in the first test) / (Number of remaining tests). Plugging in the given average score as 85 marks, the number of tests as 4, and the score in the first test as 90 marks, we find (Average score for the remaining tests) = ((85 marks * 4) - 90 marks) / 3 = 83.33 marks (rounded to two decimal places).",
+      "solution": "To find the average score for the remaining tests, calculate the sum of the scores in all tests and subtract the score in the first test, then divide it by the number of remaining tests."
+    },
+    {
+      "question": "Average 21: The average weight of 5 students is 60 kilograms. If a new student with a weight of 70 kilograms is included, what will be the new average weight?",
+      "given": "Average weight of 5 students: 60 kilograms, Weight of the new student: 70 kilograms",
+      "answer": "New average weight: 61 kilograms",
+      "explanation": "To calculate the new average weight, add the weight of the new student to the sum of the weights of the existing students and divide it by the total number of students: (60 kilograms * 5 students + 70 kilograms) / 6 students = 61 kilograms.",
+      "solution": "New average = (Sum of existing values + New value) / Total number of values"
+    },
+    {
+      "question": "Average 22: The average age of a group of 6 friends is 25 years. If a new friend, whose age is 30 years, joins the group, what will be the new average age?",
+      "given": "Average age of 6 friends: 25 years, Age of the new friend: 30 years",
+      "answer": "New average age: 26 years",
+      "explanation": "To calculate the new average age, add the age of the new friend to the sum of the ages of the existing friends and divide it by the total number of friends: (25 years * 6 friends + 30 years) / 7 friends = 26 years.",
+      "solution": "New average = (Sum of existing values + New value) / Total number of values"
+    },
+    {
+      "question": "Average 23: The average of 8 numbers is 12. If one of the numbers is 18, what will be the new average if it is replaced by 24?",
+      "given": "Average of 8 numbers: 12, Number to be replaced: 18, New number: 24",
+      "answer": "New average: 13",
+      "explanation": "To calculate the new average, subtract the old number from the sum of the numbers and add the new number, then divide it by the total number of values: (8 numbers * 12 average - 18 + 24) / 8 numbers = 13.",
+      "solution": "New average = (Sum of existing values - Old value + New value) / Total number of values"
+    },
+    {
+      "question": "Average 24: The average salary of 6 employees in a company is $5,000. If the salary of one employee is incorrectly recorded as $4,000 instead of $6,000, what will be the correct average salary?",
+      "given": "Average salary of 6 employees: $5,000, Incorrectly recorded salary: $4,000, Correct salary: $6,000",
+      "answer": "Correct average salary: $5,167",
+      "explanation": "To calculate the correct average salary, subtract the incorrectly recorded salary from the sum of the salaries and add the correct salary, then divide it by the total number of employees: ($5,000 * 6 employees - $4,000 + $6,000) / 6 employees = $5,167.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 25: The average marks of 9 students in a test are 80. If the marks of one student were incorrectly recorded as 70 instead of 90, what will be the correct average marks?",
+      "given": "Average marks of 9 students: 80, Incorrectly recorded marks: 70, Correct marks: 90",
+      "answer": "Correct average marks: 81",
+      "explanation": "To calculate the correct average marks, subtract the incorrectly recorded marks from the sum of the marks and add the correct marks, then divide it by the total number of students: (80 * 9 students - 70 + 90) / 9 students = 81.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 26: The average age of a group of 10 people is 35 years. If the age of one person is incorrectly recorded as 30 years instead of 40 years, what will be the correct average age?",
+      "given": "Average age of 10 people: 35 years, Incorrectly recorded age: 30 years, Correct age: 40 years",
+      "answer": "Correct average age: 36 years",
+      "explanation": "To calculate the correct average age, subtract the incorrectly recorded age from the sum of the ages and add the correct age, then divide it by the total number of people: (35 * 10 people - 30 + 40) / 10 people = 36.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 27: The average weight of 7 objects is 12 kg. If the weight of one object is incorrectly recorded as 10 kg instead of 15 kg, what will be the correct average weight?",
+      "given": "Average weight of 7 objects: 12 kg, Incorrectly recorded weight: 10 kg, Correct weight: 15 kg",
+      "answer": "Correct average weight: 13 kg",
+      "explanation": "To calculate the correct average weight, subtract the incorrectly recorded weight from the sum of the weights and add the correct weight, then divide it by the total number of objects: (12 * 7 kg - 10 kg + 15 kg) / 7 objects = 13 kg.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 28: The average height of 5 students is 160 cm. If the height of one student is incorrectly recorded as 155 cm instead of 165 cm, what will be the correct average height?",
+      "given": "Average height of 5 students: 160 cm, Incorrectly recorded height: 155 cm, Correct height: 165 cm",
+      "answer": "Correct average height: 161 cm",
+      "explanation": "To calculate the correct average height, subtract the incorrectly recorded height from the sum of the heights and add the correct height, then divide it by the total number of students: (160 * 5 cm - 155 cm + 165 cm) / 5 students = 161 cm.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 29: The average age of a group of 12 people is 30 years. If the age of one person is incorrectly recorded as 35 years instead of 25 years, what will be the correct average age?",
+      "given": "Average age of 12 people: 30 years, Incorrectly recorded age: 35 years, Correct age: 25 years",
+      "answer": "Correct average age: 29 years",
+      "explanation": "To calculate the correct average age, subtract the incorrectly recorded age from the sum of the ages and add the correct age, then divide it by the total number of people: (30 * 12 years - 35 years + 25 years) / 12 people = 29 years.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Average 30: The average marks of a class of 40 students is 75. If the marks of one student were incorrectly recorded as 80 instead of 60, what will be the correct average marks?",
+      "given": "Average marks of 40 students: 75, Incorrectly recorded marks: 80, Correct marks: 60",
+      "answer": "Correct average marks: 74.75",
+      "explanation": "To calculate the correct average marks, subtract the incorrectly recorded marks from the sum of the marks and add the correct marks, then divide it by the total number of students: (75 * 40 students - 80 + 60) / 40 students = 74.75.",
+      "solution": "Correct average = (Sum of existing values - Incorrect value + Correct value) / Total number of values"
+    },
+    {
+      "question": "Ratio 1: In a class, the ratio of boys to girls is 3:2. If there are 30 girls, how many boys are there?",
+      "given": "Girls: 30",
+      "answer": "Boys: 45",
+      "explanation": "Given the ratio of boys to girls is 3:2, we can set up the equation: (Number of boys)/(Number of girls) = 3/2. Solving for the number of boys, we get (Number of boys) = (3/2) * (Number of girls). Plugging in the given value of girls as 30, we find (Number of boys) = (3/2) * 30 = 45.",
+      "solution": "To find the number of boys, multiply the number of girls by the ratio of boys to girls: (Number of boys) = (3/2) * (Number of girls)."
+    },
+    {
+      "question": "Ratio 2: The length of a rectangle is in the ratio 3:5, and its width is 10 units. Find the length of the rectangle.",
+      "given": "Width: 10 units",
+      "answer": "Length: 18 units",
+      "explanation": "The ratio of the length to the width is given as 3:5. Let's represent the length as 3x and the width as 5x. Given the width as 10 units, we can set up the equation 5x = 10 and solve for x. Once we find x, we can substitute it back into the length equation (3x) to find the length.",
+      "solution": "To find the length, set up the equation (Width ratio)/(Width) = (Length ratio)/(Length) and solve for the length using the given width."
+    },
+    {
+      "question": "Ratio 3: A mixture of milk and water is in the ratio 5:2. If there are 35 liters of the mixture, how much water is present?",
+      "given": "Mixture: 35 liters",
+      "answer": "Water: 10 liters",
+      "explanation": "Given the ratio of milk to water is 5:2, we can set up the equation: (Volume of milk)/(Volume of water) = 5/2. Since the total volume of the mixture is 35 liters, we can find the volume of water by multiplying (Volume of water) = (2/7) * (Total volume of mixture). Substituting the given value of the mixture as 35 liters, we get (Volume of water) = (2/7) * 35 = 10 liters.",
+      "solution": "To find the volume of water, multiply the total volume of the mixture by the ratio of water to the sum of the ratios: (Volume of water) = (2/7) * (Total volume of mixture)."
+    },
+    {
+      "question": "Ratio 4: The sum of two numbers is 42, and their ratio is 3:5. Find the larger number.",
+      "given": "Sum: 42",
+      "answer": "Larger number: 25",
+      "explanation": "Let's assume the two numbers in the ratio are 3x and 5x. Given that their sum is 42, we can set up the equation 3x + 5x = 42 and solve for x. Once we find x, we can substitute it back into the ratio to find the larger number.",
+      "solution": "To find the larger number, set up the equation (First number ratio)/(Second number ratio) = (First number)/(Second number) and solve for the larger number using the given sum."
+    },
+    {
+      "question": "Ratio 5: In a bag, the ratio of red balls to green balls is 4:3. If there are 28 green balls, how many red balls are there?",
+      "given": "Green balls: 28",
+      "answer": "Red balls: 32",
+      "explanation": "Given the ratio of red balls to green balls is 4:3, we can set up the equation: (Number of red balls)/(Number of green balls) = 4/3. Solving for the number of red balls, we get (Number of red balls) = (4/3) * (Number of green balls). Plugging in the given value of green balls as 28, we find (Number of red balls) = (4/3) * 28 = 32.",
+      "solution": "To find the number of red balls, multiply the number of green balls by the ratio of red balls to green balls: (Number of red balls) = (4/3) * (Number of green balls)."
+    },
+    {
+      "question": "Ratio 6: A recipe calls for a mixture of sugar and flour in the ratio 2:5. If you need 1.5 kg of sugar, how much flour should you use?",
+      "given": "Sugar: 1.5 kg",
+      "answer": "Flour: 3.75 kg",
+      "explanation": "Given the ratio of sugar to flour is 2:5, we can set up the equation: (Mass of sugar)/(Mass of flour) = 2/5. To find the mass of flour, we multiply (Mass of flour) = (5/2) * (Mass of sugar). Substituting the given value of sugar as 1.5 kg, we get (Mass of flour) = (5/2) * 1.5 = 3.75 kg.",
+      "solution": "To find the mass of flour, multiply the mass of sugar by the ratio of flour to sugar: (Mass of flour) = (5/2) * (Mass of sugar)."
+    },
+    {
+      "question": "Ratio 7: In a garden, the ratio of red flowers to blue flowers is 3:4. If there are 21 red flowers, how many blue flowers are there?",
+      "given": "Red flowers: 21",
+      "answer": "Blue flowers: 28",
+      "explanation": "Given the ratio of red flowers to blue flowers is 3:4, we can set up the equation: (Number of red flowers)/(Number of blue flowers) = 3/4. Solving for the number of blue flowers, we get (Number of blue flowers) = (4/3) * (Number of red flowers). Plugging in the given value of red flowers as 21, we find (Number of blue flowers) = (4/3) * 21 = 28.",
+      "solution": "To find the number of blue flowers, multiply the number of red flowers by the ratio of blue flowers to red flowers: (Number of blue flowers) = (4/3) * (Number of red flowers)."
+    },
+    {
+      "question": "Ratio 8: The ratio of incomes of A and B is 5:3. If A's income is $5000, what is B's income?",
+      "given": "A's income: $5000",
+      "answer": "B's income: $3000",
+      "explanation": "Given the ratio of A's income to B's income is 5:3, we can set up the equation: (Income of A)/(Income of B) = 5/3. Solving for B's income, we get (Income of B) = (3/5) * (Income of A). Plugging in the given value of A's income as $5000, we find (Income of B) = (3/5) * $5000 = $3000.",
+      "solution": "To find B's income, multiply A's income by the ratio of B's income to A's income: (Income of B) = (3/5) * (Income of A)."
+    },
+    {
+      "question": "Ratio 9: The ratio of two numbers is 2:7, and their sum is 81. Find the smaller number.",
+      "given": "Sum: 81",
+      "answer": "Smaller number: 18",
+      "explanation": "Let's assume the two numbers in the ratio are 2x and 7x. Given that their sum is 81, we can set up the equation 2x + 7x = 81 and solve for x. Once we find x, we can substitute it back into the ratio to find the smaller number.",
+      "solution": "To find the smaller number, set up the equation (First number ratio)/(Second number ratio) = (First number)/(Second number) and solve for the smaller number using the given sum."
+    },
+    {
+      "question": "Ratio 10: In a bag, the ratio of black balls to white balls is 5:2. If there are 35 black balls, how many white balls are there?",
+      "given": "Black balls: 35",
+      "answer": "White balls: 14",
+      "explanation": "Given the ratio of black balls to white balls is 5:2, we can set up the equation: (Number of black balls)/(Number of white balls) = 5/2. Solving for the number of white balls, we get (Number of white balls) = (2/5) * (Number of black balls). Plugging in the given value of black balls as 35, we find (Number of white balls) = (2/5) * 35 = 14.",
+      "solution": "To find the number of white balls, multiply the number of black balls by the ratio of white balls to black balls: (Number of white balls) = (2/5) * (Number of black balls)."
+    },
+    {
+      "question": "Ratio 11: The ratio of ages of two people is 4:9. If the sum of their ages is 52 years, find the younger person's age.",
+      "given": "Sum of ages: 52 years",
+      "answer": "Younger person's age: 16 years",
+      "explanation": "Let's assume the ages of the two people in the ratio are 4x and 9x. Given that their sum is 52, we can set up the equation 4x + 9x = 52 and solve for x. Once we find x, we can substitute it back into the ratio to find the younger person's age.",
+      "solution": "To find the younger person's age, set up the equation (First person's age ratio)/(Second person's age ratio) = (First person's age)/(Second person's age) and solve for the younger person's age using the given sum."
+    },
+    {
+      "question": "Ratio 12: In a bag, the ratio of red balls to green balls to blue balls is 2:3:5. If there are 40 green balls, how many blue balls are there?",
+      "given": "Green balls: 40",
+      "answer": "Blue balls: 100",
+      "explanation": "Given the ratio of red balls to green balls to blue balls is 2:3:5, we can set up the equation: (Number of red balls)/(Number of green balls)/(Number of blue balls) = 2/3/5. Solving for the number of blue balls, we get (Number of blue balls) = (5/3) * (Number of green balls). Plugging in the given value of green balls as 40, we find (Number of blue balls) = (5/3) * 40 = 100.",
+      "solution": "To find the number of blue balls, multiply the number of green balls by the ratio of blue balls to green balls: (Number of blue balls) = (5/3) * (Number of green balls)."
+    },
+    {
+      "question": "Ratio 13: The ratio of boys to girls in a school is 4:7. If there are 112 girls, how many boys are there?",
+      "given": "Girls: 112",
+      "answer": "Boys: 64",
+      "explanation": "Given the ratio of boys to girls is 4:7, we can set up the equation: (Number of boys)/(Number of girls) = 4/7. Solving for the number of boys, we get (Number of boys) = (4/7) * (Number of girls). Plugging in the given value of girls as 112, we find (Number of boys) = (4/7) * 112 = 64.",
+      "solution": "To find the number of boys, multiply the number of girls by the ratio of boys to girls: (Number of boys) = (4/7) * (Number of girls)."
+    },
+    {
+      "question": "Ratio 14: The ratio of two numbers is 5:8. If the first number is 25, find the second number.",
+      "given": "First number: 25",
+      "answer": "Second number: 40",
+      "explanation": "Given the ratio of the first number to the second number is 5:8, we can set up the equation: (First number)/(Second number) = 5/8. Solving for the second number, we get (Second number) = (8/5) * (First number). Plugging in the given value of the first number as 25, we find (Second number) = (8/5) * 25 = 40.",
+      "solution": "To find the second number, multiply the first number by the ratio of the second number to the first number: (Second number) = (8/5) * (First number)."
+    },
+    {
+      "question": "Ratio 15: The ratio of ages of two sisters is 3:7. If the older sister is 21 years old, find the younger sister's age.",
+      "given": "Older sister's age: 21 years",
+      "answer": "Younger sister's age: 9 years",
+      "explanation": "Given the ratio of ages of the two sisters is 3:7, we can set up the equation: (Younger sister's age)/(Older sister's age) = 3/7. Solving for the younger sister's age, we get (Younger sister's age) = (3/7) * (Older sister's age). Plugging in the given value of the older sister's age as 21 years, we find (Younger sister's age) = (3/7) * 21 = 9 years.",
+      "solution": "To find the younger sister's age, multiply the older sister's age by the ratio of the younger sister's age to the older sister's age: (Younger sister's age) = (3/7) * (Older sister's age)."
+    },
+    {
+      "question": "Ratio 16: The ratio of lengths of two ropes is 2:5. If the shorter rope is 6 meters long, find the length of the longer rope.",
+      "given": "Shorter rope: 6 meters",
+      "answer": "Longer rope: 15 meters",
+      "explanation": "Given the ratio of lengths of the two ropes is 2:5, we can set up the equation: (Shorter rope)/(Longer rope) = 2/5. Solving for the length of the longer rope, we get (Longer rope) = (5/2) * (Shorter rope). Plugging in the given value of the shorter rope as 6 meters, we find (Longer rope) = (5/2) * 6 = 15 meters.",
+      "solution": "To find the length of the longer rope, multiply the length of the shorter rope by the ratio of the longer rope to the shorter rope: (Longer rope) = (5/2) * (Shorter rope)."
+    },
+    {
+      "question": "Ratio 17: The ratio of boys to girls in a classroom is 2:3. If there are 24 boys, how many girls are there?",
+      "given": "Boys: 24",
+      "answer": "Girls: 36",
+      "explanation": "Given the ratio of boys to girls is 2:3, we can set up the equation: (Number of boys)/(Number of girls) = 2/3. Solving for the number of girls, we get (Number of girls) = (3/2) * (Number of boys). Plugging in the given value of boys as 24, we find (Number of girls) = (3/2) * 24 = 36.",
+      "solution": "To find the number of girls, multiply the number of boys by the ratio of girls to boys: (Number of girls) = (3/2) * (Number of boys)."
+    },
+    {
+      "question": "Ratio 18: The ratio of the ages of father and son is 7:1. If the father is 49 years old, find the son's age.",
+      "given": "Father's age: 49 years",
+      "answer": "Son's age: 7 years",
+      "explanation": "Given the ratio of the ages of the father to the son is 7:1, we can set up the equation: (Son's age)/(Father's age) = 1/7. Solving for the son's age, we get (Son's age) = (1/7) * (Father's age). Plugging in the given value of the father's age as 49 years, we find (Son's age) = (1/7) * 49 = 7 years.",
+      "solution": "To find the son's age, multiply the father's age by the ratio of the son's age to the father's age: (Son's age) = (1/7) * (Father's age)."
+    },
+    {
+      "question": "Ratio 19: In a mixture of coffee and milk, the ratio of coffee to milk is 3:2. If there are 15 cups of milk, how many cups of coffee are there?",
+      "given": "Milk cups: 15",
+      "answer": "Coffee cups: 22.5",
+      "explanation": "Given the ratio of coffee to milk is 3:2, we can set up the equation: (Number of cups of coffee)/(Number of cups of milk) = 3/2. Solving for the number of cups of coffee, we get (Number of cups of coffee) = (3/2) * (Number of cups of milk). Plugging in the given value of cups of milk as 15, we find (Number of cups of coffee) = (3/2) * 15 = 22.5.",
+      "solution": "To find the number of cups of coffee, multiply the number of cups of milk by the ratio of coffee to milk: (Number of cups of coffee) = (3/2) * (Number of cups of milk)."
+    },
+    {
+      "question": "Ratio 20: The ratio of oranges to apples in a basket is 5:4. If there are 36 apples, how many oranges are there?",
+      "given": "Apples: 36",
+      "answer": "Oranges: 45",
+      "explanation": "Given the ratio of oranges to apples is 5:4, we can set up the equation: (Number of oranges)/(Number of apples) = 5/4. Solving for the number of oranges, we get (Number of oranges) = (5/4) * (Number of apples). Plugging in the given value of apples as 36, we find (Number of oranges) = (5/4) * 36 = 45.",
+      "solution": "To find the number of oranges, multiply the number of apples by the ratio of oranges to apples: (Number of oranges) = (5/4) * (Number of apples)."
+    },
+    {
+      "question": "Ratio 21: The ratio of lengths of two sides of a rectangle is 3:7. If the longer side is 21 cm, find the length of the shorter side.",
+      "given": "Longer side: 21 cm",
+      "answer": "Shorter side: 9 cm",
+      "explanation": "Given the ratio of lengths of the two sides of a rectangle is 3:7, we can set up the equation: (Shorter side)/(Longer side) = 3/7. Solving for the length of the shorter side, we get (Shorter side) = (3/7) * (Longer side). Plugging in the given value of the longer side as 21 cm, we find (Shorter side) = (3/7) * 21 = 9 cm.",
+      "solution": "To find the length of the shorter side, multiply the length of the longer side by the ratio of the shorter side to the longer side: (Shorter side) = (3/7) * (Longer side)."
+    },
+    {
+      "question": "Ratio 22: The ratio of marks obtained by two students in a test is 4:5. If the first student scored 80 marks, find the marks obtained by the second student.",
+      "given": "First student's marks: 80",
+      "answer": "Second student's marks: 100",
+      "explanation": "Given the ratio of marks obtained by the two students is 4:5, we can set up the equation: (First student's marks)/(Second student's marks) = 4/5. Solving for the marks obtained by the second student, we get (Second student's marks) = (5/4) * (First student's marks). Plugging in the given value of the first student's marks as 80, we find (Second student's marks) = (5/4) * 80 = 100.",
+      "solution": "To find the marks obtained by the second student, multiply the marks obtained by the first student by the ratio of the second student's marks to the first student's marks: (Second student's marks) = (5/4) * (First student's marks)."
+    },
+    {
+      "question": "Ratio 23: The ratio of the ages of two friends is 3:8. If the older friend is 40 years old, find the age of the younger friend.",
+      "given": "Older friend's age: 40 years",
+      "answer": "Younger friend's age: 15 years",
+      "explanation": "Given the ratio of the ages of the two friends is 3:8, we can set up the equation: (Younger friend's age)/(Older friend's age) = 3/8. Solving for the age of the younger friend, we get (Younger friend's age) = (3/8) * (Older friend's age). Plugging in the given value of the older friend's age as 40 years, we find (Younger friend's age) = (3/8) * 40 = 15 years.",
+      "solution": "To find the age of the younger friend, multiply the older friend's age by the ratio of the younger friend's age to the older friend's age: (Younger friend's age) = (3/8) * (Older friend's age)."
+    },
+    {
+      "question": "Ratio 24: In a class, the ratio of boys to girls is 3:5. If there are 40 girls, how many boys are there?",
+      "given": "Girls: 40",
+      "answer": "Boys: 24",
+      "explanation": "Given the ratio of boys to girls is 3:5, we can set up the equation: (Number of boys)/(Number of girls) = 3/5. Solving for the number of boys, we get (Number of boys) = (3/5) * (Number of girls). Plugging in the given value of girls as 40, we find (Number of boys) = (3/5) * 40 = 24.",
+      "solution": "To find the number of boys, multiply the number of girls by the ratio of boys to girls: (Number of boys) = (3/5) * (Number of girls)."
+    },
+    {
+      "question": "Ratio 25: The ratio of two numbers is 7:12. If the second number is 36, find the first number.",
+      "given": "Second number: 36",
+      "answer": "First number: 21",
+      "explanation": "Given the ratio of the first number to the second number is 7:12, we can set up the equation: (First number)/(Second number) = 7/12. Solving for the first number, we get (First number) = (7/12) * (Second number). Plugging in the given value of the second number as 36, we find (First number) = (7/12) * 36 = 21.",
+      "solution": "To find the first number, multiply the second number by the ratio of the first number to the second number: (First number) = (7/12) * (Second number)."
+    },
+    {
+      "question": "Ratio 26: The ratio of the number of apples to the number of oranges in a basket is 5:2. If there are 35 oranges, how many apples are there?",
+      "given": "Oranges: 35",
+      "answer": "Apples: 50",
+      "explanation": "Given the ratio of the number of apples to the number of oranges is 5:2, we can set up the equation: (Number of apples)/(Number of oranges) = 5/2. Solving for the number of apples, we get (Number of apples) = (5/2) * (Number of oranges). Plugging in the given value of oranges as 35, we find (Number of apples) = (5/2) * 35 = 50.",
+      "solution": "To find the number of apples, multiply the number of oranges by the ratio of apples to oranges: (Number of apples) = (5/2) * (Number of oranges)."
+    },
+    {
+      "question": "Ratio 27: The ratio of the speeds of two cars is 3:4. If the first car's speed is 60 km/h, find the speed of the second car.",
+      "given": "First car's speed: 60 km/h",
+      "answer": "Second car's speed: 80 km/h",
+      "explanation": "Given the ratio of the speeds of the two cars is 3:4, we can set up the equation: (First car's speed)/(Second car's speed) = 3/4. Solving for the speed of the second car, we get (Second car's speed) = (4/3) * (First car's speed). Plugging in the given value of the first car's speed as 60 km/h, we find (Second car's speed) = (4/3) * 60 = 80 km/h.",
+      "solution": "To find the speed of the second car, multiply the speed of the first car by the ratio of the second car's speed to the first car's speed: (Second car's speed) = (4/3) * (First car's speed)."
+    },
+    {
+      "question": "Ratio 28: The ratio of lengths of two sides of a triangle is 2:5. If the longer side is 10 cm, find the length of the shorter side.",
+      "given": "Longer side: 10 cm",
+      "answer": "Shorter side: 4 cm",
+      "explanation": "Given the ratio of lengths of the two sides of a triangle is 2:5, we can set up the equation: (Shorter side)/(Longer side) = 2/5. Solving for the length of the shorter side, we get (Shorter side) = (2/5) * (Longer side). Plugging in the given value of the longer side as 10 cm, we find (Shorter side) = (2/5) * 10 = 4 cm.",
+      "solution": "To find the length of the shorter side, multiply the length of the longer side by the ratio of the shorter side to the longer side: (Shorter side) = (2/5) * (Longer side)."
+    },
+    {
+      "question": "Ratio 29: The ratio of the prices of two items is 4:9. If the second item costs $45, find the price of the first item.",
+      "given": "Second item's price: $45",
+      "answer": "First item's price: $20",
+      "explanation": "Given the ratio of the prices of the two items is 4:9, we can set up the equation: (First item's price)/(Second item's price) = 4/9. Solving for the price of the first item, we get (First item's price) = (4/9) * (Second item's price). Plugging in the given value of the second item's price as $45, we find (First item's price) = (4/9) * $45 = $20.",
+      "solution": "To find the price of the first item, multiply the price of the second item by the ratio of the first item's price to the second item's price: (First item's price) = (4/9) * (Second item's price)."
+    },
+    {
+      "question": "Ratio 30: The ratio of boys to girls in a class is 2:3. If there are 30 boys, how many girls are there?",
+      "given": "Boys: 30",
+      "answer": "Girls: 45",
+      "explanation": "Given the ratio of boys to girls is 2:3, we can set up the equation: (Number of boys)/(Number of girls) = 2/3. Solving for the number of girls, we get (Number of girls) = (3/2) * (Number of boys). Plugging in the given value of boys as 30, we find (Number of girls) = (3/2) * 30 = 45.",
+      "solution": "To find the number of girls, multiply the number of boys by the ratio of girls to boys: (Number of girls) = (3/2) * (Number of boys)."
+    },
+    {
+      "question": "Mixture 1: A solution is made by mixing 3 liters of juice that contains 20% apple juice with 5 liters of juice that contains 40% apple juice. What is the percentage of apple juice in the resulting mixture?",
+      "given": "Quantity of first juice: 3 liters, Percentage of apple juice in first juice: 20%, Quantity of second juice: 5 liters, Percentage of apple juice in second juice: 40%",
+      "answer": "Percentage of apple juice in the resulting mixture: 32%",
+      "explanation": "To find the percentage of apple juice in the resulting mixture, calculate the total amount of apple juice in both juices and divide it by the total volume of the mixture: (Percentage of apple juice in the resulting mixture) = (Total amount of apple juice) / (Total volume of the mixture). Plugging in the given quantities and percentages, we find (Percentage of apple juice in the resulting mixture) = ((3 liters * 0.20) + (5 liters * 0.40)) / (3 liters + 5 liters) = 32%.",
+      "solution": "To find the percentage of apple juice in the resulting mixture, calculate the total amount of apple juice in both juices and divide it by the total volume of the mixture."
+    },
+    {
+      "question": "Mixture 2: A container initially holds 5 liters of a 30% acid solution. How many liters of a 40% acid solution should be added to the container to obtain a 35% acid solution?",
+      "given": "Initial quantity of acid solution: 5 liters, Initial percentage of acid in solution: 30%, Percentage of acid in desired mixture: 35%, Percentage of acid in the second solution: 40%",
+      "answer": "Quantity of second solution to be added: 2 liters",
+      "explanation": "To find the quantity of the second solution to be added, use the formula: (Quantity of second solution) = (Quantity of final mixture) * (Percentage of desired mixture - Percentage of acid in the initial solution) / (Percentage of acid in the second solution - Percentage of desired mixture). Plugging in the given quantities and percentages, we find (Quantity of second solution) = (5 liters) * (35% - 30%) / (40% - 35%) = 2 liters.",
+      "solution": "To find the quantity of the second solution to be added, use the formula: (Quantity of second solution) = (Quantity of final mixture) * (Percentage of desired mixture - Percentage of acid in the initial solution) / (Percentage of acid in the second solution - Percentage of desired mixture)."
+    },
+    {
+      "question": "Mixture 3: A mixture contains 8 liters of milk and water in the ratio of 5:3. How much water should be added to the mixture so that the new ratio becomes 3:2?",
+      "given": "Initial quantity of mixture: 8 liters, Ratio of milk to water in initial mixture: 5:3, Final ratio of milk to water: 3:2",
+      "answer": "Quantity of water to be added: 4 liters",
+      "explanation": "To find the quantity of water to be added, calculate the difference between the desired and initial quantities of water: (Quantity of water to be added) = (Quantity of final mixture) * (Ratio of water in the final mixture - Ratio of water in the initial mixture) / (Sum of the parts in the final ratio - Sum of the parts in the initial ratio). Plugging in the given quantities and ratios, we find (Quantity of water to be added) = (8 liters) * (2 - 3) / (3 + 2 - 5) = 4 liters.",
+      "solution": "To find the quantity of water to be added, calculate the difference between the desired and initial quantities of water."
+    },
+    {
+      "question": "Mixture 4: A mixture of nuts contains almonds and cashews in the ratio of 3:2. If 4 kg of cashews are added to the mixture, the ratio becomes 2:3. What is the weight of the original mixture?",
+      "given": "Quantity of added cashews: 4 kg, Ratio of almonds to cashews in the original mixture: 3:2, Ratio of almonds to cashews in the final mixture: 2:3",
+      "answer": "Weight of the original mixture: 20 kg",
+      "explanation": "To find the weight of the original mixture, first, calculate the weight of cashews in the original mixture by comparing the ratios of cashews in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of cashews and the given ratio of almonds to cashews. Plugging in the given quantities and ratios, we find the weight of cashews in the original mixture as (4 kg) * (2/3) = 8/3 kg. Using the ratio of almonds to cashews (3:2) and the weight of cashews, we find the weight of the original mixture as (8/3 kg) * (5/2) = 20 kg.",
+      "solution": "To find the weight of the original mixture, first, calculate the weight of cashews in the original mixture by comparing the ratios of cashews in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of cashews and the given ratio of almonds to cashews."
+    },
+    {
+      "question": "Mixture 5: A container has a mixture of alcohol and water in the ratio of 5:2. If 8 liters of water is added to the container, the ratio becomes 3:2. What is the quantity of the original mixture?",
+      "given": "Quantity of added water: 8 liters, Ratio of alcohol to water in the original mixture: 5:2, Ratio of alcohol to water in the final mixture: 3:2",
+      "answer": "Quantity of the original mixture: 28 liters",
+      "explanation": "To find the quantity of the original mixture, first, calculate the quantity of water in the original mixture by comparing the ratios of water in the initial and final mixtures. Then, find the quantity of the entire mixture using the quantity of water and the given ratio of alcohol to water. Plugging in the given quantities and ratios, we find the quantity of water in the original mixture as (8 liters) * (2/3) = 16/3 liters. Using the ratio of alcohol to water (5:2) and the quantity of water, we find the quantity of the original mixture as (16/3 liters) * (7/2) = 28 liters.",
+      "solution": "To find the quantity of the original mixture, first, calculate the quantity of water in the original mixture by comparing the ratios of water in the initial and final mixtures. Then, find the quantity of the entire mixture using the quantity of water and the given ratio of alcohol to water."
+    },
+    {
+      "question": "Mixture 6: A chemist has a solution containing 40% acid. How many liters of this solution should be mixed with 20 liters of a 25% acid solution to obtain a mixture that is 30% acid?",
+      "given": "Quantity of the first solution (40% acid): unknown, Quantity of the second solution (25% acid): 20 liters, Percentage of acid in desired mixture: 30%",
+      "answer": "Quantity of the first solution to be added: 30 liters",
+      "explanation": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture). Plugging in the given percentages and quantities, we have (40% acid) * (unknown) + (25% acid) * (20 liters) = (30% acid) * (20 liters + unknown). Solving the equation, we find the quantity of the first solution to be added as 30 liters.",
+      "solution": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture)."
+    },
+    {
+      "question": "Mixture 7: A chemist has a solution containing 10% acid. How many liters of this solution should be mixed with 15 liters of a 30% acid solution to obtain a mixture that is 20% acid?",
+      "given": "Quantity of the first solution (10% acid): unknown, Quantity of the second solution (30% acid): 15 liters, Percentage of acid in desired mixture: 20%",
+      "answer": "Quantity of the first solution to be added: 30 liters",
+      "explanation": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture). Plugging in the given percentages and quantities, we have (10% acid) * (unknown) + (30% acid) * (15 liters) = (20% acid) * (15 liters + unknown). Solving the equation, we find the quantity of the first solution to be added as 30 liters.",
+      "solution": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture)."
+    },
+    {
+      "question": "Mixture 8: A container contains a mixture of milk and water in the ratio of 5:3. If 12 liters of the mixture is replaced with pure milk, the ratio becomes 2:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 12 liters, Ratio of milk to water in the final mixture: 2:1",
+      "answer": "Capacity of the container: 45 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (5x) / (3x) = 2/1, where x represents the common ratio multiplier. Solving the equation, we find x = 3. Therefore, the initial quantity of the mixture is (5x + 3x) = 8x = 24 liters. Since 12 liters are replaced with pure milk, the capacity of the container is 24 + 12 = 36 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 9: A mixture contains alcohol and water in the ratio of 3:2. How much of the mixture should be replaced with pure alcohol so that the ratio becomes 5:2?",
+      "given": "Initial quantity of mixture: unknown, Ratio of alcohol to water in the final mixture: 5:2",
+      "answer": "Quantity of the mixture to be replaced: 2/3 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of alcohol in the mixture) / (Quantity of water in the mixture) = (Ratio of alcohol to water in the mixture). Plugging in the given ratio, we have (3x) / (2x) = 5/2, where x represents the common ratio multiplier. Solving the equation, we find x = 2/3. Therefore, the quantity of the mixture to be replaced is (2/3) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of alcohol in the mixture) / (Quantity of water in the mixture) = (Ratio of alcohol to water in the mixture)."
+    },
+    {
+      "question": "Mixture 10: A container contains a mixture of milk and water in the ratio of 4:3. If 16 liters of the mixture is replaced with pure milk, the ratio becomes 2:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 16 liters, Ratio of milk to water in the final mixture: 2:1",
+      "answer": "Capacity of the container: 56 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (4x) / (3x) = 2/1, where x represents the common ratio multiplier. Solving the equation, we find x = 3. Therefore, the initial quantity of the mixture is (4x + 3x) = 7x = 21 liters. Since 16 liters are replaced with pure milk, the capacity of the container is 21 + 16 = 37 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 11: A chemist has a solution containing 60% alcohol. How many liters of this solution should be mixed with 30 liters of a 40% alcohol solution to obtain a mixture that is 50% alcohol?",
+      "given": "Quantity of the first solution (60% alcohol): unknown, Quantity of the second solution (40% alcohol): 30 liters, Percentage of alcohol in desired mixture: 50%",
+      "answer": "Quantity of the first solution to be added: 30 liters",
+      "explanation": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of alcohol in the first solution) * (Quantity of first solution) + (Percentage of alcohol in the second solution) * (Quantity of second solution) = (Percentage of alcohol in the desired mixture) * (Total quantity of mixture). Plugging in the given percentages and quantities, we have (60% alcohol) * (unknown) + (40% alcohol) * (30 liters) = (50% alcohol) * (30 liters + unknown). Solving the equation, we find the quantity of the first solution to be added as 30 liters.",
+      "solution": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of alcohol in the first solution) * (Quantity of first solution) + (Percentage of alcohol in the second solution) * (Quantity of second solution) = (Percentage of alcohol in the desired mixture) * (Total quantity of mixture)."
+    },
+    {
+      "question": "Mixture 12: A mixture contains milk and water in the ratio of 7:3. How much of the mixture should be replaced with pure milk so that the ratio becomes 4:1?",
+      "given": "Initial quantity of mixture: unknown, Ratio of milk to water in the final mixture: 4:1",
+      "answer": "Quantity of the mixture to be replaced: 9/16 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (7x) / (3x) = 4/1, where x represents the common ratio multiplier. Solving the equation, we find x = 3/4. Therefore, the quantity of the mixture to be replaced is (9/16) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 13: A container contains a mixture of milk and water in the ratio of 7:5. If 36 liters of the mixture is replaced with pure milk, the ratio becomes 4:3. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 36 liters, Ratio of milk to water in the final mixture: 4:3",
+      "answer": "Capacity of the container: 108 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (7x) / (5x) = 4/3, where x represents the common ratio multiplier. Solving the equation, we find x = 3/2. Therefore, the initial quantity of the mixture is (7x + 5x) = 12x = 18 liters. Since 36 liters are replaced with pure milk, the capacity of the container is 18 + 36 = 54 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 14: A mixture of nuts contains almonds and cashews in the ratio of 5:3. If 10 kg of almonds is added to the mixture, the ratio becomes 2:1. What is the weight of the original mixture?",
+      "given": "Quantity of added almonds: 10 kg, Ratio of almonds to cashews in the original mixture: 5:3, Ratio of almonds to cashews in the final mixture: 2:1",
+      "answer": "Weight of the original mixture: 30 kg",
+      "explanation": "To find the weight of the original mixture, first, calculate the weight of almonds in the original mixture by comparing the ratios of almonds in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of almonds and the given ratio of almonds to cashews. Plugging in the given quantities and ratios, we find the weight of almonds in the original mixture as (10 kg) * (5/2) = 25 kg. Using the ratio of almonds to cashews (5:3) and the weight of almonds, we find the weight of the original mixture as (25 kg) * (8/5) = 40 kg. Since 10 kg of almonds are added, the weight of the original mixture is 40 - 10 = 30 kg.",
+      "solution": "To find the weight of the original mixture, first, calculate the weight of almonds in the original mixture by comparing the ratios of almonds in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of almonds and the given ratio of almonds to cashews."
+    },
+    {
+      "question": "Mixture 15: A chemist has a solution containing 30% acid. How many liters of this solution should be mixed with 15 liters of a 20% acid solution to obtain a mixture that is 25% acid?",
+      "given": "Quantity of the first solution (30% acid): unknown, Quantity of the second solution (20% acid): 15 liters, Percentage of acid in desired mixture: 25%",
+      "answer": "Quantity of the first solution to be added: 15 liters",
+      "explanation": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture). Plugging in the given percentages and quantities, we have (30% acid) * (unknown) + (20% acid) * (15 liters) = (25% acid) * (15 liters + unknown). Solving the equation, we find the quantity of the first solution to be added as 15 liters.",
+      "solution": "To find the quantity of the first solution to be added, set up an equation using the rule of mixtures: (Percentage of acid in the first solution) * (Quantity of first solution) + (Percentage of acid in the second solution) * (Quantity of second solution) = (Percentage of acid in the desired mixture) * (Total quantity of mixture)."
+    },
+    {
+      "question": "Mixture 16: A mixture contains sugar and salt in the ratio of 5:2. How much of the mixture should be replaced with pure sugar so that the ratio becomes 3:1?",
+      "given": "Initial quantity of mixture: unknown, Ratio of sugar to salt in the final mixture: 3:1",
+      "answer": "Quantity of the mixture to be replaced: 1/4 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of sugar in the mixture) / (Quantity of salt in the mixture) = (Ratio of sugar to salt in the mixture). Plugging in the given ratio, we have (5x) / (2x) = 3/1, where x represents the common ratio multiplier. Solving the equation, we find x = 2/3. Therefore, the quantity of the mixture to be replaced is (1/4) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of sugar in the mixture) / (Quantity of salt in the mixture) = (Ratio of sugar to salt in the mixture)."
+    },
+    {
+      "question": "Mixture 17: A container contains a mixture of petrol and diesel in the ratio of 3:2. If 15 liters of the mixture is replaced with pure petrol, the ratio becomes 2:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure petrol: 15 liters, Ratio of petrol to diesel in the final mixture: 2:1",
+      "answer": "Capacity of the container: 45 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of petrol in the mixture) / (Quantity of diesel in the mixture) = (Ratio of petrol to diesel in the mixture). Plugging in the given ratio, we have (3x) / (2x) = 2/1, where x represents the common ratio multiplier. Solving the equation, we find x = 2. Therefore, the initial quantity of the mixture is (3x + 2x) = 5x = 10 liters. Since 15 liters are replaced with pure petrol, the capacity of the container is 10 + 15 = 25 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of petrol in the mixture) / (Quantity of diesel in the mixture) = (Ratio of petrol to diesel in the mixture)."
+    },
+    {
+      "question": "Mixture 18: A mixture contains coffee and chicory in the ratio of 5:2. How much of the mixture should be replaced with pure coffee so that the ratio becomes 3:1?",
+      "given": "Initial quantity of mixture: unknown, Ratio of coffee to chicory in the final mixture: 3:1",
+      "answer": "Quantity of the mixture to be replaced: 2/3 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of chicory in the mixture) = (Ratio of coffee to chicory in the mixture). Plugging in the given ratio, we have (5x) / (2x) = 3/1, where x represents the common ratio multiplier. Solving the equation, we find x = 2/3. Therefore, the quantity of the mixture to be replaced is (2/3) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of chicory in the mixture) = (Ratio of coffee to chicory in the mixture)."
+    },
+    {
+      "question": "Mixture 19: A container contains a mixture of milk and water in the ratio of 4:3. If 20 liters of the mixture is replaced with pure milk, the ratio becomes 2:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 20 liters, Ratio of milk to water in the final mixture: 2:1",
+      "answer": "Capacity of the container: 60 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (4x) / (3x) = 2/1, where x represents the common ratio multiplier. Solving the equation, we find x = 3. Therefore, the initial quantity of the mixture is (4x + 3x) = 7x = 21 liters. Since 20 liters are replaced with pure milk, the capacity of the container is 21 + 20 = 41 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 20: A mixture contains almonds and cashews in the ratio of 4:3. If 8 kg of almonds is added to the mixture, the ratio becomes 3:2. What is the weight of the original mixture?",
+      "given": "Quantity of added almonds: 8 kg, Ratio of almonds to cashews in the original mixture: 4:3, Ratio of almonds to cashews in the final mixture: 3:2",
+      "answer": "Weight of the original mixture: 20 kg",
+      "explanation": "To find the weight of the original mixture, first, calculate the weight of almonds in the original mixture by comparing the ratios of almonds in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of almonds and the given ratio of almonds to cashews. Plugging in the given quantities and ratios, we find the weight of almonds in the original mixture as (8 kg) * (4/1) = 32 kg. Using the ratio of almonds to cashews (4:3) and the weight of almonds, we find the weight of the original mixture as (32 kg) * (7/4) = 56 kg. Since 8 kg of almonds are added, the weight of the original mixture is 56 - 8 = 48 kg.",
+      "solution": "To find the weight of the original mixture, first, calculate the weight of almonds in the original mixture by comparing the ratios of almonds in the initial and final mixtures. Then, find the weight of the entire mixture using the weight of almonds and the given ratio of almonds to cashews."
+    },
+    {
+      "question": "Mixture 21: A container contains a mixture of petrol and kerosene in the ratio of 5:3. If 30 liters of the mixture is replaced with pure petrol, the ratio becomes 4:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure petrol: 30 liters, Ratio of petrol to kerosene in the final mixture: 4:1",
+      "answer": "Capacity of the container: 90 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of petrol in the mixture) / (Quantity of kerosene in the mixture) = (Ratio of petrol to kerosene in the mixture). Plugging in the given ratio, we have (5x) / (3x) = 4/1, where x represents the common ratio multiplier. Solving the equation, we find x = 4/5. Therefore, the initial quantity of the mixture is (5x + 3x) = 8x = 32 liters. Since 30 liters are replaced with pure petrol, the capacity of the container is 32 + 30 = 62 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of petrol in the mixture) / (Quantity of kerosene in the mixture) = (Ratio of petrol to kerosene in the mixture)."
+    },
+    {
+      "question": "Mixture 22: A mixture contains coffee and sugar in the ratio of 2:1. How much of the mixture should be replaced with pure coffee so that the ratio becomes 3:2?",
+      "given": "Initial quantity of mixture: unknown, Ratio of coffee to sugar in the final mixture: 3:2",
+      "answer": "Quantity of the mixture to be replaced: 1/2 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of sugar in the mixture) = (Ratio of coffee to sugar in the mixture). Plugging in the given ratio, we have (2x) / (1x) = 3/2, where x represents the common ratio multiplier. Solving the equation, we find x = 3/2. Therefore, the quantity of the mixture to be replaced is (1/2) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of sugar in the mixture) = (Ratio of coffee to sugar in the mixture)."
+    },
+    {
+      "question": "Mixture 23: A container contains a mixture of milk and water in the ratio of 7:2. If 25 liters of the mixture is replaced with pure milk, the ratio becomes 5:2. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 25 liters, Ratio of milk to water in the final mixture: 5:2",
+      "answer": "Capacity of the container: 63 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (7x) / (2x) = 5/2, where x represents the common ratio multiplier. Solving the equation, we find x = 5/7. Therefore, the initial quantity of the mixture is (7x + 2x) = 9x = 45 liters. Since 25 liters are replaced with pure milk, the capacity of the container is 45 + 25 = 70 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 24: A mixture contains wine and water in the ratio of 3:1. How much of the mixture should be replaced with pure water so that the ratio becomes 2:3?",
+      "given": "Initial quantity of mixture: unknown, Ratio of wine to water in the final mixture: 2:3",
+      "answer": "Quantity of the mixture to be replaced: 3/4 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of wine in the mixture) / (Quantity of water in the mixture) = (Ratio of wine to water in the mixture). Plugging in the given ratio, we have (3x) / (1x) = 2/3, where x represents the common ratio multiplier. Solving the equation, we find x = 2/3. Therefore, the quantity of the mixture to be replaced is (3/4) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of wine in the mixture) / (Quantity of water in the mixture) = (Ratio of wine to water in the mixture)."
+    },
+    {
+      "question": "Mixture 25: A container contains a mixture of acid and water in the ratio of 7:3. If 40 liters of the mixture is replaced with pure acid, the ratio becomes 2:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure acid: 40 liters, Ratio of acid to water in the final mixture: 2:1",
+      "answer": "Capacity of the container: 120 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of acid in the mixture) / (Quantity of water in the mixture) = (Ratio of acid to water in the mixture). Plugging in the given ratio, we have (7x) / (3x) = 2/1, where x represents the common ratio multiplier. Solving the equation, we find x = 3. Therefore, the initial quantity of the mixture is (7x + 3x) = 10x = 30 liters. Since 40 liters are replaced with pure acid, the capacity of the container is 30 + 40 = 70 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of acid in the mixture) / (Quantity of water in the mixture) = (Ratio of acid to water in the mixture)."
+    },
+    {
+      "question": "Mixture 26: A mixture contains alcohol and water in the ratio of 4:1. How much of the mixture should be replaced with pure alcohol so that the ratio becomes 5:1?",
+      "given": "Initial quantity of mixture: unknown, Ratio of alcohol to water in the final mixture: 5:1",
+      "answer": "Quantity of the mixture to be replaced: 1/4 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of alcohol in the mixture) / (Quantity of water in the mixture) = (Ratio of alcohol to water in the mixture). Plugging in the given ratio, we have (4x) / (1x) = 5/1, where x represents the common ratio multiplier. Solving the equation, we find x = 5/4. Therefore, the quantity of the mixture to be replaced is (1/4) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of alcohol in the mixture) / (Quantity of water in the mixture) = (Ratio of alcohol to water in the mixture)."
+    },
+    {
+      "question": "Mixture 27: A container contains a mixture of milk and water in the ratio of 5:2. If 30 liters of the mixture is replaced with pure water, the ratio becomes 4:1. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure water: 30 liters, Ratio of milk to water in the final mixture: 4:1",
+      "answer": "Capacity of the container: 90 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (5x) / (2x) = 4/1, where x represents the common ratio multiplier. Solving the equation, we find x = 8/5. Therefore, the initial quantity of the mixture is (5x + 2x) = 7x = 14 liters. Since 30 liters are replaced with pure water, the capacity of the container is 14 + 30 = 44 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 28: A mixture contains coffee and tea in the ratio of 3:2. How much of the mixture should be replaced with pure tea so that the ratio becomes 2:3?",
+      "given": "Initial quantity of mixture: unknown, Ratio of coffee to tea in the final mixture: 2:3",
+      "answer": "Quantity of the mixture to be replaced: 3/5 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of tea in the mixture) = (Ratio of coffee to tea in the mixture). Plugging in the given ratio, we have (3x) / (2x) = 2/3, where x represents the common ratio multiplier. Solving the equation, we find x = 2/3. Therefore, the quantity of the mixture to be replaced is (3/5) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of coffee in the mixture) / (Quantity of tea in the mixture) = (Ratio of coffee to tea in the mixture)."
+    },
+    {
+      "question": "Mixture 29: A container contains a mixture of milk and water in the ratio of 3:2. If 15 liters of the mixture is replaced with pure milk, the ratio becomes 5:4. What is the capacity of the container?",
+      "given": "Initial quantity of mixture: unknown, Quantity replaced with pure milk: 15 liters, Ratio of milk to water in the final mixture: 5:4",
+      "answer": "Capacity of the container: 45 liters",
+      "explanation": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture). Plugging in the given ratio, we have (3x) / (2x) = 5/4, where x represents the common ratio multiplier. Solving the equation, we find x = 10/9. Therefore, the initial quantity of the mixture is (3x + 2x) = 5x = 50 liters. Since 15 liters are replaced with pure milk, the capacity of the container is 50 + 15 = 65 liters.",
+      "solution": "To find the capacity of the container, set up an equation using the rule of mixtures: (Quantity of milk in the mixture) / (Quantity of water in the mixture) = (Ratio of milk to water in the mixture)."
+    },
+    {
+      "question": "Mixture 30: A mixture contains wine and water in the ratio of 2:5. How much of the mixture should be replaced with pure water so that the ratio becomes 1:3?",
+      "given": "Initial quantity of mixture: unknown, Ratio of wine to water in the final mixture: 1:3",
+      "answer": "Quantity of the mixture to be replaced: 5/6 of the initial quantity",
+      "explanation": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of wine in the mixture) / (Quantity of water in the mixture) = (Ratio of wine to water in the mixture). Plugging in the given ratio, we have (2x) / (5x) = 1/3, where x represents the common ratio multiplier. Solving the equation, we find x = 5/6. Therefore, the quantity of the mixture to be replaced is (5/6) of the initial quantity.",
+      "solution": "To find the quantity of the mixture to be replaced, set up an equation using the rule of mixtures: (Quantity of wine in the mixture) / (Quantity of water in the mixture) = (Ratio of wine to water in the mixture)."
+    },
+    {
+      "question": "Time and Work 1: A, B, and C can complete a task in 8 days. If A works alone for the first 3 days, then A and B work together for the next 4 days, and finally all three work together for the remaining days, how many days will it take to complete the task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/8 days",
+      "answer": "6 days",
+      "explanation": "In the first 3 days, A completes 3/8 of the task. In the next 4 days, A and B together complete (4/8) * (1/3) = 1/6 of the task. Therefore, in the remaining days, they need to complete (1 - (3/8 + 1/6)) = 13/24 of the task. Working together, A, B, and C can complete (13/24) of the task in 1 day. So, it will take 24/13 days to complete the remaining task. Adding up the days, the total time required to complete the task is 3 + 4 + (24/13) = 6 days.",
+      "solution": "Calculate the work done by A in the first 3 days, the work done by A and B together in the next 4 days, and the remaining work to be done by A, B, and C in the remaining days."
+    },
+    {
+      "question": "Time and Work 2: A can complete a task in 15 days, while B can complete the same task in 12 days. If they work together for the first 4 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/15 days, Efficiency of B: 1 task/12 days",
+      "answer": "8 days",
+      "explanation": "In the first 4 days, A and B together complete (1/15 + 1/12) * 4 = 2/5 of the task. The remaining task to be completed is (1 - 2/5) = 3/5. Since A is working alone, he will complete the remaining task in (3/5) / (1/15) = 9 days. Therefore, it will take A an additional 9 - 4 = 5 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 4 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 3: A, B, and C can complete a task in 6 days. If A works alone for the first 2 days, B works alone for the next 3 days, and finally C works alone for the remaining days, how many days will it take to complete the task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/6 days",
+      "answer": "3 days",
+      "explanation": "In the first 2 days, A completes 2/6 of the task. In the next 3 days, B completes 3/6 of the task. Therefore, in the remaining days, C needs to complete (1 - (2/6 + 3/6)) = 1/6 of the task. Working alone, C can complete 1/6 of the task in 1 day. So, it will take C 1 day to complete the remaining task. Adding up the days, the total time required to complete the task is 2 + 3 + 1 = 6 days.",
+      "solution": "Calculate the work done by A in the first 2 days, the work done by B in the next 3 days, and the remaining work to be done by C in the remaining days."
+    },
+    {
+      "question": "Time and Work 4: A, B, and C can complete a task in 10 days. If they work together for the first 5 days, and then A and B leave, how many more days will it take for C to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/10 days",
+      "answer": "15 days",
+      "explanation": "In the first 5 days, A, B, and C together complete (1/10) * 5 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. Since only C is working, he will complete the remaining task in 1/2 of the time taken by A, B, and C together. Therefore, it will take C an additional 1/2 * 10 = 5 days to complete the remaining task.",
+      "solution": "Calculate the work done by A, B, and C together in the first 5 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by C to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 5: A can complete a task in 12 days, while B can complete the same task in 18 days. If they work together for the first 6 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/12 days, Efficiency of B: 1 task/18 days",
+      "answer": "16 days",
+      "explanation": "In the first 6 days, A and B together complete (1/12 + 1/18) * 6 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. Since A is working alone, he will complete the remaining task in (2/3) / (1/12) = 8 days. Therefore, it will take A an additional 8 - 6 = 2 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 6 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 6: A, B, and C can complete a task in 15 days. If A works alone for the first 6 days, B works alone for the next 9 days, and finally C works alone for the remaining days, how many days will it take to complete the task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/15 days",
+      "answer": "5 days",
+      "explanation": "In the first 6 days, A completes 6/15 of the task. In the next 9 days, B completes 9/15 of the task. Therefore, in the remaining days, C needs to complete (1 - (6/15 + 9/15)) = 0 of the task. Since there is no remaining task, C doesn't need any additional days to complete the task. Adding up the days, the total time required to complete the task is 6 + 9 + 0 = 15 days.",
+      "solution": "Calculate the work done by A in the first 6 days, the work done by B in the next 9 days, and the remaining work to be done by C in the remaining days."
+    },
+    {
+      "question": "Time and Work 7: A can complete a task in 20 days, while B can complete the same task in 30 days. If they work together for the first 10 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/20 days, Efficiency of B: 1 task/30 days",
+      "answer": "15 days",
+      "explanation": "In the first 10 days, A and B together complete (1/20 + 1/30) * 10 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. Since A is working alone, he will complete the remaining task in (1/2) / (1/20) = 10 days. Therefore, it will take A an additional 10 - 10 = 0 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 10 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 8: A, B, and C can complete a task in 24 days. If they work together for the first 8 days, and then A and B leave, how many more days will it take for C to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/24 days",
+      "answer": "16 days",
+      "explanation": "In the first 8 days, A, B, and C together complete (1/24) * 8 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. Since only C is working, he will complete the remaining task in (2/3) / (1/24) = 16 days. Therefore, it will take C an additional 16 - 8 = 8 days to complete the remaining task.",
+      "solution": "Calculate the work done by A, B, and C together in the first 8 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by C to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 9: A, B, and C can complete a task in 12 days. If A works alone for the first 4 days, B works alone for the next 6 days, and finally C works alone for the remaining days, how many days will it take to complete the task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/12 days",
+      "answer": "3 days",
+      "explanation": "In the first 4 days, A completes 4/12 of the task. In the next 6 days, B completes 6/12 of the task. Therefore, in the remaining days, C needs to complete (1 - (4/12 + 6/12)) = 1/12 of the task. Working alone, C can complete 1/12 of the task in 1 day. So, it will take C 1 day to complete the remaining task. Adding up the days, the total time required to complete the task is 4 + 6 + 1 = 11 days.",
+      "solution": "Calculate the work done by A in the first 4 days, the work done by B in the next 6 days, and the remaining work to be done by C in the remaining days."
+    },
+    {
+      "question": "Time and Work 10: A can complete a task in 18 days, while B can complete the same task in 27 days. If they work together for the first 9 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/18 days, Efficiency of B: 1 task/27 days",
+      "answer": "12 days",
+      "explanation": "In the first 9 days, A and B together complete (1/18 + 1/27) * 9 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. Since A is working alone, he will complete the remaining task in (2/3) / (1/18) = 12 days. Therefore, it will take A an additional 12 - 9 = 3 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 9 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 11: A, B, and C can complete a task in 20 days. If A and B work together for the first 10 days, and then B and C work together for the next 8 days, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/20 days",
+      "answer": "12 days",
+      "explanation": "In the first 10 days, A and B together complete (1/20) * 10 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 8 days, B and C together complete (1/20) * 8 = 2/5 of the task. Therefore, in the remaining days, A needs to complete (1/2 - 2/5) = 1/10 of the task. Working alone, A can complete 1/10 of the task in 1 day. So, it will take A 1 day to complete the remaining task. Adding up the days, the total time required to complete the task is 10 + 8 + 1 = 19 days.",
+      "solution": "Calculate the work done by A and B together in the first 10 days, the work done by B and C together in the next 8 days, and the remaining work to be done by A in the remaining days."
+    },
+    {
+      "question": "Time and Work 12: A can complete a task in 15 days, while B can complete the same task in 24 days. If they work together for the first 6 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/15 days, Efficiency of B: 1 task/24 days",
+      "answer": "18 days",
+      "explanation": "In the first 6 days, A and B together complete (1/15 + 1/24) * 6 = 11/40 of the task. The remaining task to be completed is (1 - 11/40) = 29/40. Since A is working alone, he will complete the remaining task in (29/40) / (1/15) = 43.5 days. Therefore, it will take A an additional 43.5 - 6 = 37.5 days (approx. 38 days) to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 6 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 13: A, B, and C can complete a task in 8 days. If A works alone for the first 2 days, B works alone for the next 4 days, and finally C works alone for the remaining days, how many days will it take to complete the task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/8 days",
+      "answer": "8 days",
+      "explanation": "In the first 2 days, A completes 2/8 of the task. In the next 4 days, B completes 4/8 of the task. Therefore, in the remaining days, C needs to complete (1 - (2/8 + 4/8)) = 2/8 of the task. Working alone, C can complete 2/8 of the task in 2 days. So, it will take C 2 days to complete the remaining task. Adding up the days, the total time required to complete the task is 2 + 4 + 2 = 8 days.",
+      "solution": "Calculate the work done by A in the first 2 days, the work done by B in the next 4 days, and the remaining work to be done by C in the remaining days."
+    },
+    {
+      "question": "Time and Work 14: A can complete a task in 10 days, while B can complete the same task in 15 days. If they work together for the first 6 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/10 days, Efficiency of B: 1 task/15 days",
+      "answer": "8 days",
+      "explanation": "In the first 6 days, A and B together complete (1/10 + 1/15) * 6 = 7/10 of the task. The remaining task to be completed is (1 - 7/10) = 3/10. Since A is working alone, he will complete the remaining task in (3/10) / (1/10) = 3 days. Therefore, it will take A an additional 3 - 6 = -3 days (approx. 0 days) to complete the remaining task. Note that A has already completed the task within the first 6 days.",
+      "solution": "Calculate the work done by A and B together in the first 6 days and subtract it from the total work to find the remaining task. Since A is already completing the task within the first 6 days, no additional days are required."
+    },
+    {
+      "question": "Time and Work 15: A, B, and C can complete a task in 16 days. If A and B work together for the first 8 days, and then A and C work together for the next 12 days, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/16 days",
+      "answer": "64 days",
+      "explanation": "In the first 8 days, A and B together complete (1/16) * 8 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 12 days, A and C together complete (1/16) * 12 = 3/4 of the task. Therefore, in the remaining days, B needs to complete (1/2 - 3/4) = -1/4 of the task. Since B cannot complete negative work, it means B has already completed his share of the task within the first 20 days. Therefore, no additional days are required for B to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 8 days, the work done by A and C together in the next 12 days, and the remaining work to be done by B in the remaining days."
+    },
+    {
+      "question": "Time and Work 16: A can complete a task in 12 days, while B can complete the same task in 18 days. If they work together for the first 6 days, and then A leaves, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/12 days, Efficiency of B: 1 task/18 days",
+      "answer": "12 days",
+      "explanation": "In the first 6 days, A and B together complete (1/12 + 1/18) * 6 = 7/12 of the task. The remaining task to be completed is (1 - 7/12) = 5/12. Since B is working alone, he will complete the remaining task in (5/12) / (1/18) = 15 days. Therefore, it will take B an additional 15 - 6 = 9 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 6 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by B to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 17: A, B, and C can complete a task in 24 days. If A and B work together for the first 8 days, and then B and C work together for the next 12 days, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/24 days",
+      "answer": "18 days",
+      "explanation": "In the first 8 days, A and B together complete (1/24) * 8 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. In the next 12 days, B and C together complete (1/24) * 12 = 1/2 of the task. Therefore, in the remaining days, A needs to complete (2/3 - 1/2) = 1/6 of the task. Working alone, A can complete 1/6 of the task in (1/6) / (1/24) = 4 days. Therefore, it will take A an additional 4 - 8 = -4 days (approx. 0 days) to complete the remaining task. Note that A has already completed the task within the first 8 days.",
+      "solution": "Calculate the work done by A and B together in the first 8 days, the work done by B and C together in the next 12 days, and the remaining work to be done by A in the remaining days."
+    },
+    {
+      "question": "Time and Work 18: A can complete a task in 14 days, while B can complete the same task in 21 days. If they work together for the first 7 days, and then A leaves, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/14 days, Efficiency of B: 1 task/21 days",
+      "answer": "28 days",
+      "explanation": "In the first 7 days, A and B together complete (1/14 + 1/21) * 7 = 5/12 of the task. The remaining task to be completed is (1 - 5/12) = 7/12. Since B is working alone, he will complete the remaining task in (7/12) / (1/21) = 49/12 days. Therefore, it will take B an additional 49/12 - 7 = 21/12 days (approx. 1.75 days) to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 7 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by B to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 19: A, B, and C can complete a task in 10 days. If A and B work together for the first 5 days, and then A and C work together for the next 8 days, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/10 days",
+      "answer": "40 days",
+      "explanation": "In the first 5 days, A and B together complete (1/10) * 5 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 8 days, A and C together complete (1/10) * 8 = 4/5 of the task. Therefore, in the remaining days, B needs to complete (1/2 - 4/5) = -3/10 of the task. Since B cannot complete negative work, it means B has already completed his share of the task within the first 13 days. Therefore, no additional days are required for B to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 5 days, the work done by A and C together in the next 8 days, and the remaining work to be done by B in the remaining days."
+    },
+    {
+      "question": "Time and Work 20: A can complete a task in 16 days, while B can complete the same task in 24 days. If they work together for the first 8 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/16 days, Efficiency of B: 1 task/24 days",
+      "answer": "12 days",
+      "explanation": "In the first 8 days, A and B together complete (1/16 + 1/24) * 8 = 7/12 of the task. The remaining task to be completed is (1 - 7/12) = 5/12. Since A is working alone, he will complete the remaining task in (5/12) / (1/16) = 20/3 days. Therefore, it will take A an additional 20/3 - 8 = 4/3 days (approx. 1.33 days) to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 8 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 21: A, B, and C can complete a task in 12 days. If A and B work together for the first 6 days, and then B and C work together for the next 9 days, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/12 days",
+      "answer": "16 days",
+      "explanation": "In the first 6 days, A and B together complete (1/12) * 6 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 9 days, B and C together complete (1/12) * 9 = 3/4 of the task. Therefore, in the remaining days, A needs to complete (1/2 - 3/4) = -1/4 of the task. Since A cannot complete negative work, it means A has already completed his share of the task within the first 15 days. Therefore, no additional days are required for A to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 6 days, the work done by B and C together in the next 9 days, and the remaining work to be done by A in the remaining days."
+    },
+    {
+      "question": "Time and Work 22: A can complete a task in 18 days, while B can complete the same task in 27 days. If they work together for the first 9 days, and then A leaves, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/18 days, Efficiency of B: 1 task/27 days",
+      "answer": "27 days",
+      "explanation": "In the first 9 days, A and B together complete (1/18 + 1/27) * 9 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. Since B is working alone, he will complete the remaining task in (2/3) / (1/27) = 18/3 = 6 days. Therefore, it will take B an additional 6 - 9 = -3 days (approx. 0 days) to complete the remaining task. Note that B has already completed the task within the first 9 days.",
+      "solution": "Calculate the work done by A and B together in the first 9 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by B to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 23: A, B, and C can complete a task in 15 days. If A and B work together for the first 7 days, and then A and C work together for the next 10 days, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/15 days",
+      "answer": "45 days",
+      "explanation": "In the first 7 days, A and B together complete (1/15) * 7 = 7/15 of the task. The remaining task to be completed is (1 - 7/15) = 8/15. In the next 10 days, A and C together complete (1/15) * 10 = 2/3 of the task. Therefore, in the remaining days, B needs to complete (8/15 - 2/3) = 2/15 of the task. Working alone, B can complete 2/15 of the task in (2/15) / (1/15) = 2 days. Therefore, it will take B an additional 2 - 7 = -5 days (approx. 0 days) to complete the remaining task. Note that B has already completed his share of the task within the first 7 days.",
+      "solution": "Calculate the work done by A and B together in the first 7 days, the work done by A and C together in the next 10 days, and the remaining work to be done by B in the remaining days."
+    },
+    {
+      "question": "Time and Work 24: A can complete a task in 20 days, while B can complete the same task in 30 days. If they work together for the first 10 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/20 days, Efficiency of B: 1 task/30 days",
+      "answer": "20 days",
+      "explanation": "In the first 10 days, A and B together complete (1/20 + 1/30) * 10 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. Since A is working alone, he will complete the remaining task in (2/3) / (1/20) = 40/3 days. Therefore, it will take A an additional 40/3 - 10 = 10/3 days (approx. 3.33 days) to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 10 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 25: A, B, and C can complete a task in 8 days. If A and B work together for the first 4 days, and then B and C work together for the next 6 days, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/8 days",
+      "answer": "16 days",
+      "explanation": "In the first 4 days, A and B together complete (1/8) * 4 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 6 days, B and C together complete (1/8) * 6 = 3/4 of the task. Therefore, in the remaining days, A needs to complete (1/2 - 3/4) = -1/4 of the task. Since A cannot complete negative work, it means A has already completed his share of the task within the first 10 days. Therefore, no additional days are required for A to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 4 days, the work done by B and C together in the next 6 days, and the remaining work to be done by A in the remaining days."
+    },
+    {
+      "question": "Time and Work 26: A can complete a task in 24 days, while B can complete the same task in 36 days. If they work together for the first 12 days, and then B leaves, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/24 days, Efficiency of B: 1 task/36 days",
+      "answer": "36 days",
+      "explanation": "In the first 12 days, A and B together complete (1/24 + 1/36) * 12 = 7/12 of the task. The remaining task to be completed is (1 - 7/12) = 5/12. Since A is working alone, he will complete the remaining task in (5/12) / (1/24) = 10/3 days. Therefore, it will take A an additional 10/3 - 12 = -22/3 days (approx. 0 days) to complete the remaining task. Note that A has already completed the task within the first 12 days.",
+      "solution": "Calculate the work done by A and B together in the first 12 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by A to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 27: A, B, and C can complete a task in 10 days. If A and B work together for the first 5 days, and then B and C work together for the next 7 days, how many more days will it take for A to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/10 days",
+      "answer": "25 days",
+      "explanation": "In the first 5 days, A and B together complete (1/10) * 5 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. In the next 7 days, B and C together complete (1/10) * 7 = 7/10 of the task. Therefore, in the remaining days, A needs to complete (1/2 - 7/10) = -1/10 of the task. Since A cannot complete negative work, it means A has already completed his share of the task within the first 12 days. Therefore, no additional days are required for A to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 5 days, the work done by B and C together in the next 7 days, and the remaining work to be done by A in the remaining days."
+    },
+    {
+      "question": "Time and Work 28: A can complete a task in 30 days, while B can complete the same task in 45 days. If they work together for the first 15 days, and then A leaves, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/30 days, Efficiency of B: 1 task/45 days",
+      "answer": "45 days",
+      "explanation": "In the first 15 days, A and B together complete (1/30 + 1/45) * 15 = 1/2 of the task. The remaining task to be completed is (1 - 1/2) = 1/2. Since B is working alone, he will complete the remaining task in (1/2) / (1/45) = 45 days. Therefore, it will take B an additional 45 - 15 = 30 days to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 15 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by B to complete the remaining task."
+    },
+    {
+      "question": "Time and Work 29: A, B, and C can complete a task in 12 days. If A and B work together for the first 4 days, and then A and C work together for the next 8 days, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A, B, and C working together: 1 task/12 days",
+      "answer": "48 days",
+      "explanation": "In the first 4 days, A and B together complete (1/12) * 4 = 1/3 of the task. The remaining task to be completed is (1 - 1/3) = 2/3. In the next 8 days, A and C together complete (1/12) * 8 = 2/3 of the task. Therefore, in the remaining days, B needs to complete (2/3 - 2/3) = 0 of the task. Since B has already completed his share of the task within the first 4 days, no additional days are required for B to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 4 days, the work done by A and C together in the next 8 days, and the remaining work to be done by B in the remaining days."
+    },
+    {
+      "question": "Time and Work 30: A can complete a task in 25 days, while B can complete the same task in 40 days. If they work together for the first 15 days, and then A leaves, how many more days will it take for B to complete the remaining task?",
+      "given": "Efficiency of A: 1 task/25 days, Efficiency of B: 1 task/40 days",
+      "answer": "25 days",
+      "explanation": "In the first 15 days, A and B together complete (1/25 + 1/40) * 15 = 11/24 of the task. The remaining task to be completed is (1 - 11/24) = 13/24. Since B is working alone, he will complete the remaining task in (13/24) / (1/40) = 13/24 * 40 = 65/6 days. Therefore, it will take B an additional 65/6 - 15 = 25/6 days (approx. 4.17 days) to complete the remaining task.",
+      "solution": "Calculate the work done by A and B together in the first 15 days and subtract it from the total work to find the remaining task. Then, calculate the time taken by B to complete the remaining task."
+    },
+    {
+      "question": "Time-Distance-Speed 1: A car travels a distance of 240 kilometers at a constant speed of 60 kilometers per hour. How long does it take to complete the journey?",
+      "given": "Distance traveled by the car: 240 kilometers, Speed of the car: 60 kilometers per hour",
+      "answer": "Time taken to complete the journey: 4 hours",
+      "explanation": "To calculate the time taken, divide the distance traveled by the speed of the car: 240 kilometers / 60 kilometers per hour = 4 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 2: A cyclist covers a distance of 180 kilometers in 6 hours. What is the average speed of the cyclist?",
+      "given": "Distance covered by the cyclist: 180 kilometers, Time taken: 6 hours",
+      "answer": "Average speed of the cyclist: 30 kilometers per hour",
+      "explanation": "To calculate the average speed, divide the distance covered by the time taken: 180 kilometers / 6 hours = 30 kilometers per hour.",
+      "solution": "Speed = Distance / Time"
+    },
+    {
+      "question": "Time-Distance-Speed 3: A train travels at a speed of 90 kilometers per hour for a distance of 540 kilometers. How long does it take to cover the entire distance?",
+      "given": "Speed of the train: 90 kilometers per hour, Distance traveled by the train: 540 kilometers",
+      "answer": "Time taken to cover the distance: 6 hours",
+      "explanation": "To calculate the time taken, divide the distance by the speed of the train: 540 kilometers / 90 kilometers per hour = 6 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 5: A motorboat travels a distance of 150 kilometers downstream in 3 hours. If the speed of the boat in still water is 40 kilometers per hour and the speed of the stream is 10 kilometers per hour, what is the speed of the stream?",
+      "given": "Distance traveled downstream: 150 kilometers, Time taken: 3 hours, Speed of the boat in still water: 40 kilometers per hour",
+      "answer": "Speed of the stream: 10 kilometers per hour",
+      "explanation": "To calculate the speed of the stream, subtract the speed of the boat in still water from the speed of the boat downstream: Speed of the stream = Speed of the boat downstream - Speed of the boat in still water = 40 kilometers per hour - 30 kilometers per hour = 10 kilometers per hour.",
+      "solution": "Speed of the stream = Speed of the boat downstream - Speed of the boat in still water"
+    },
+    {
+      "question": "Time-Distance-Speed 6: A car and a motorcycle start from the same point and travel towards each other. The car travels at a speed of 60 kilometers per hour, while the motorcycle travels at a speed of 80 kilometers per hour. If they are 400 kilometers apart after 3 hours, what is the total distance covered by both vehicles?",
+      "given": "Speed of the car: 60 kilometers per hour, Speed of the motorcycle: 80 kilometers per hour, Time taken: 3 hours, Distance between them: 400 kilometers",
+      "answer": "Total distance covered by both vehicles: 480 kilometers",
+      "explanation": "To calculate the total distance covered by both vehicles, multiply the sum of their speeds by the time taken: (60 kilometers per hour + 80 kilometers per hour) * 3 hours = 480 kilometers.",
+      "solution": "Total distance = (Speed of vehicle 1 + Speed of vehicle 2) * Time"
+    },
+    {
+      "question": "Time-Distance-Speed 7: A train travels a distance of 300 kilometers at a speed of 75 kilometers per hour. How much time does it take to cover the distance?",
+      "given": "Distance traveled by the train: 300 kilometers, Speed of the train: 75 kilometers per hour",
+      "answer": "Time taken to cover the distance: 4 hours",
+      "explanation": "To calculate the time taken, divide the distance traveled by the speed of the train: 300 kilometers / 75 kilometers per hour = 4 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 8: A cyclist covers a distance of 150 kilometers in 5 hours. What is the average speed of the cyclist?",
+      "given": "Distance covered by the cyclist: 150 kilometers, Time taken: 5 hours",
+      "answer": "Average speed of the cyclist: 30 kilometers per hour",
+      "explanation": "To calculate the average speed, divide the distance covered by the time taken: 150 kilometers / 5 hours = 30 kilometers per hour.",
+      "solution": "Speed = Distance / Time"
+    },
+    {
+      "question": "Time-Distance-Speed 9: A car travels at a speed of 90 kilometers per hour for a distance of 450 kilometers. How long does it take to cover the entire distance?",
+      "given": "Speed of the car: 90 kilometers per hour    , Distance traveled by the car: 450 kilometers",
+      "answer": "Time taken to cover the distance: 5 hours",
+      "explanation": "To calculate the time taken, divide the distance by the speed of the car: 450 kilometers / 90 kilometers per hour = 5 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 10: A car covers a distance of 500 kilometers at an average speed of 100 kilometers per hour. If the car traveled for 4 hours, how much distance is still left?",
+      "given": "Total distance covered by the car: 500 kilometers, Average speed of the car: 100 kilometers per hour, Time taken: 4 hours",
+      "answer": "Distance left to be covered: 100 kilometers",
+      "explanation": "To calculate the distance left, multiply the time taken by the speed of the car and subtract it from the total distance: (100 kilometers per hour * 4 hours) - 500 kilometers = 100 kilometers.",
+      "solution": "Distance left = Total distance - (Speed * Time)"
+    },
+    {
+      "question": "Time-Distance-Speed 11: A motorboat travels a distance of 120 kilometers downstream in 2 hours. If the speed of the boat in still water is 40 kilometers per hour and the speed of the stream is 20 kilometers per hour, what is the speed of the stream?",
+      "given": "Distance traveled downstream: 120 kilometers, Time taken: 2 hours, Speed of the boat in still water: 40 kilometers per hour",
+      "answer": "Speed of the stream: 20 kilometers per hour",
+      "explanation": "To calculate the speed of the stream, subtract the speed of the boat in still water from the speed of the boat downstream: Speed of the stream = Speed of the boat downstream - Speed of the boat in still water = 40 kilometers per hour - 20 kilometers per hour = 20 kilometers per hour.",
+      "solution": "Speed of the stream = Speed of the boat downstream - Speed of the boat in still water"
+    },
+    {
+      "question": "Time-Distance-Speed 12: A car and a motorcycle start from the same point and travel towards each other. The car travels at a speed of 60 kilometers per hour, while the motorcycle travels at a speed of 80 kilometers per hour. If they are 300 kilometers apart after 2 hours, what is the total distance covered by both vehicles?",
+      "given": "Speed of the car: 60 kilometers per hour, Speed of the motorcycle: 80 kilometers per hour, Time taken: 2 hours, Distance between them: 300 kilometers",
+      "answer": "Total distance covered by both vehicles: 280 kilometers",
+      "explanation": "To calculate the total distance covered by both vehicles, multiply the sum of their speeds by the time taken: (60 kilometers per hour + 80 kilometers per hour) * 2 hours = 280 kilometers.",
+      "solution": "Total distance = (Speed of vehicle 1 + Speed of vehicle 2) * Time"
+    },
+    {
+      "question": "Time-Distance-Speed 13: A train travels a distance of 200 kilometers at a speed of 50 kilometers per hour. How long does it take to cover the distance?",
+      "given": "Distance traveled by the train: 200 kilometers, Speed of the train: 50 kilometers per hour",
+      "answer": "Time taken to cover the distance: 4 hours",
+      "explanation": "To calculate the time taken, divide the distance traveled by the speed of the train: 200 kilometers / 50 kilometers per hour = 4 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 14: A cyclist covers a distance of 120 kilometers in 6 hours. What is the average speed of the cyclist?",
+      "given": "Distance covered by the cyclist: 120 kilometers, Time taken: 6 hours",
+      "answer": "Average speed of the cyclist: 20 kilometers per hour",
+      "explanation": "To calculate the average speed, divide the distance covered by the time taken: 120 kilometers / 6 hours = 20 kilometers per hour.",
+      "solution": "Speed = Distance / Time"
+    },
+    {
+      "question": "Time-Distance-Speed 15: A car travels at a speed of 75 kilometers per hour for a distance of 375 kilometers. How long does it take to cover the entire distance?",
+      "given": "Speed of the car: 75 kilometers per hour, Distance traveled by the car: 375 kilometers",
+      "answer": "Time taken to cover the distance: 5 hours",
+      "explanation": "To calculate the time taken, divide the distance by the speed of the car: 375 kilometers / 75 kilometers per hour = 5 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 16: A car covers a distance of 600 kilometers at an average speed of 100 kilometers per hour. If the car traveled for 6 hours, how much distance is still left?",
+      "given": "Total distance covered by the car: 600 kilometers, Average speed of the car: 100 kilometers per hour, Time taken: 6 hours",
+      "answer": "Distance left to be covered: 0 kilometers",
+      "explanation": "To calculate the distance left, multiply the time taken by the speed of the car and subtract it from the total distance: (100 kilometers per hour * 6 hours) - 600 kilometers = 0 kilometers.",
+      "solution": "Distance left = Total distance - (Speed * Time)"
+    },
+    {
+      "question": "Time-Distance-Speed 17: A motorboat travels a distance of 160 kilometers downstream in 4 hours. If the speed of the boat in still water is 40 kilometers per hour and the speed of the stream is 30 kilometers per hour, what is the speed of the stream?",
+      "given": "Distance traveled downstream: 160 kilometers, Time taken: 4 hours, Speed of the boat in still water: 40 kilometers per hour",
+      "answer": "Speed of the stream: 30 kilometers per hour",
+      "explanation": "To calculate the speed of the stream, subtract the speed of the boat in still water from the speed of the boat downstream: Speed of the stream = Speed of the boat downstream - Speed of the boat in still water = 40 kilometers per hour - 10 kilometers per hour = 30 kilometers per hour.",
+      "solution": "Speed of the stream = Speed of the boat downstream - Speed of the boat in still water"
+    },
+    {
+      "question": "Time-Distance-Speed 18: A car and a motorcycle start from the same point and travel towards each other. The car travels at a speed of 60 kilometers per hour, while the motorcycle travels at a speed of 80 kilometers per hour. If they are 500 kilometers apart after 3 hours, what is the total distance covered by both vehicles?",
+      "given": "Speed of the car: 60 kilometers per hour, Speed of the motorcycle: 80 kilometers per hour, Time taken: 3 hours, Distance between them: 500 kilometers",
+      "answer": "Total distance covered by both vehicles: 540 kilometers",
+      "explanation": "To calculate the total distance covered by both vehicles, multiply the sum of their speeds by the time taken: (60 kilometers per hour + 80 kilometers per hour) * 3 hours = 540 kilometers.",
+      "solution": "Total distance = (Speed of vehicle 1 + Speed of vehicle 2) * Time"
+    },
+    {
+      "question": "Time-Distance-Speed 19: A train travels a distance of 250 kilometers at a speed of 50 kilometers per hour. How long does it take to cover the distance?",
+      "given": "Distance traveled by the train: 250 kilometers, Speed of the train: 50 kilometers per hour",
+      "answer": "Time taken to cover the distance: 5 hours",
+      "explanation": "To calculate the time taken, divide the distance traveled by the speed of the train: 250 kilometers / 50 kilometers per hour = 5 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 20: A cyclist covers a distance of 180 kilometers in 6 hours. What is the average speed of the cyclist?",
+      "given": "Distance covered by the cyclist: 180 kilometers, Time taken: 6 hours",
+      "answer": "Average speed of the cyclist: 30 kilometers per hour",
+      "explanation": "To calculate the average speed, divide the distance covered by the time taken: 180 kilometers / 6 hours = 30 kilometers per hour.",
+      "solution": "Speed = Distance / Time"
+    },
+    {
+      "question": "Time-Distance-Speed 21: A car travels at a speed of 70 kilometers per hour for a distance of 420 kilometers. How long does it take to cover the entire distance?",
+      "given": "Speed of the car: 70 kilometers per hour, Distance traveled by the car: 420 kilometers",
+      "answer": "Time taken to cover the distance: 6 hours",
+      "explanation": "To calculate the time taken, divide the distance by the speed of the car: 420 kilometers / 70 kilometers per hour = 6 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 22: A car covers a distance of 700 kilometers at an average speed of 100 kilometers per hour. If the car traveled for 7 hours, how much distance is still left?",
+      "given": "Total distance covered by the car: 700 kilometers, Average speed of the car: 100 kilometers per hour, Time taken: 7 hours",
+      "answer": "Distance left to be covered: 0 kilometers",
+      "explanation": "To calculate the distance left, multiply the time taken by the speed of the car and subtract it from the total distance: (100 kilometers per hour * 7 hours) - 700 kilometers = 0 kilometers.",
+      "solution": "Distance left = Total distance - (Speed * Time)"
+    },
+    {
+      "question": "Time-Distance-Speed 23: A motorboat travels a distance of 180 kilometers downstream in 3 hours. If the speed of the boat in still water is 40 kilometers per hour and the speed of the stream is 20 kilometers per hour, what is the speed of the stream?",
+      "given": "Distance traveled downstream: 180 kilometers, Time taken: 3 hours, Speed of the boat in still water: 40 kilometers per hour",
+      "answer": "Speed of the stream: 20 kilometers per hour",
+      "explanation": "To calculate the speed of the stream, subtract the speed of the boat in still water from the speed of the boat downstream: Speed of the stream = Speed of the boat downstream - Speed of the boat in still water = 40 kilometers per hour - 20 kilometers per hour = 20 kilometers per hour.",
+      "solution": "Speed of the stream = Speed of the boat downstream - Speed of the boat in still water"
+    },
+    {
+      "question": "Time-Distance-Speed 24: A car and a motorcycle start from the same point and travel towards each other. The car travels at a speed of 60 kilometers per hour, while the motorcycle travels at a speed of 80 kilometers per hour. If they are 400 kilometers apart after 4 hours, what is the total distance covered by both vehicles?",
+      "given": "Speed of the car: 60 kilometers per hour, Speed of the motorcycle: 80 kilometers per hour, Time taken: 4 hours, Distance between them: 400 kilometers",
+      "answer": "Total distance covered by both vehicles: 560 kilometers",
+      "explanation": "To calculate the total distance covered by both vehicles, multiply the sum of their speeds by the time taken: (60 kilometers per hour + 80 kilometers per hour) * 4 hours = 560 kilometers.",
+      "solution": "Total distance = (Speed of vehicle 1 + Speed of vehicle 2) * Time"
+    },
+    {
+      "question": "Time-Distance-Speed 25: A train travels a distance of 300 kilometers at a speed of 60 kilometers per hour. How long does it take to cover the distance?",
+      "given": "Distance traveled by the train: 300 kilometers, Speed of the train: 60 kilometers per hour",
+      "answer": "Time taken to cover the distance: 5 hours",
+      "explanation": "To calculate the time taken, divide the distance traveled by the speed of the train: 300 kilometers / 60 kilometers per hour = 5 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 26: A cyclist covers a distance of 150 kilometers in 6 hours. What is the average speed of the cyclist?",
+      "given": "Distance covered by the cyclist: 150 kilometers, Time taken: 6 hours",
+      "answer": "Average speed of the cyclist: 25 kilometers per hour",
+      "explanation": "To calculate the average speed, divide the distance covered by the time taken: 150 kilometers / 6 hours = 25 kilometers per hour.",
+      "solution": "Speed = Distance / Time"
+    },
+    {
+      "question": "Time-Distance-Speed 27: A car travels at a speed of 80 kilometers per hour for a distance of 480 kilometers. How long does it take to cover the entire distance?",
+      "given": "Speed of the car: 80 kilometers per hour, Distance traveled by the car: 480 kilometers",
+      "answer": "Time taken to cover the distance: 6 hours",
+      "explanation": "To calculate the time taken, divide the distance by the speed of the car: 480 kilometers / 80 kilometers per hour = 6 hours.",
+      "solution": "Time = Distance / Speed"
+    },
+    {
+      "question": "Time-Distance-Speed 28: A car covers a distance of 800 kilometers at an average speed of 100 kilometers per hour. If the car traveled for 8 hours, how much distance is still left?",
+      "given": "Total distance covered by the car: 800 kilometers, Average speed of the car: 100 kilometers per hour, Time taken: 8 hours",
+      "answer": "Distance left to be covered: 0 kilometers",
+      "explanation": "To calculate the distance left, multiply the time taken by the speed of the car and subtract it from the total distance: (100 kilometers per hour * 8 hours) - 800 kilometers = 0 kilometers.",
+      "solution": "Distance left = Total distance - (Speed * Time)"
+    },
+    {
+      "question": "Time-Distance-Speed 29: A motorboat travels a distance of 200 kilometers downstream in 4 hours. If the speed of the boat in still water is 50 kilometers per hour and the speed of the stream is 30 kilometers per hour, what is the speed of the stream?",
+      "given": "Distance traveled downstream: 200 kilometers, Time taken: 4 hours, Speed of the boat in still water: 50 kilometers per hour",
+      "answer": "Speed of the stream: 20 kilometers per hour",
+      "explanation": "To calculate the speed of the stream, subtract the speed of the boat in still water from the speed of the boat downstream: Speed of the stream = Speed of the boat downstream - Speed of the boat in still water = 50 kilometers per hour - 30 kilometers per hour = 20 kilometers per hour.",
+      "solution": "Speed of the stream = Speed of the boat downstream - Speed of the boat in still water"
+    },
+    {
+      "question": "Time-Distance-Speed 30: A car and a motorcycle start from the same point and travel towards each other. The car travels at a speed of 70 kilometers per hour, while the motorcycle travels at a speed of 90 kilometers per hour. If they are 600 kilometers apart after 6 hours, what is the total distance covered by both vehicles?",
+      "given": "Speed of the car: 70 kilometers per hour, Speed of the motorcycle: 90 kilometers per hour, Time taken: 6 hours, Distance between them: 600 kilometers",
+      "answer": "Total distance covered by both vehicles: 960 kilometers",
+      "explanation": "To calculate the total distance covered by both vehicles, multiply the sum of their speeds by the time taken: (70 kilometers per hour + 90 kilometers per hour) * 6 hours = 960 kilometers.",
+      "solution": "Total distance = (Speed of vehicle 1 + Speed of vehicle 2) * Time"
+    }
+  ]
+}
