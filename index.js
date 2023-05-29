@@ -9,7 +9,7 @@ const questions = jsonData.questions;
 
 // Set up the Discord webhook URL
 const webhookUrl =
-  "DISCORD_WEBHOOK";
+  "https://discord.com/api/webhooks/1111970460490530816/ZU9NuuEjLMAsWpxscmJNXli5fi8AXY-CC0BjZ0uyVkACN3T_WisPZyRXINk08KIDiN7k";
 
 // Function to send questions to the Discord webhook
 const sendQuestions = () => {
@@ -70,7 +70,7 @@ const sendAnswers = () => {
 };
 
 // Set up the cron job to schedule the question and answer sending
-const questionSchedule = "30 10 * * *"; // 17:15 IST Asia/Kolkata
+const questionSchedule = "37 11 * * *"; // 17:15 IST Asia/Kolkata
 const answerSchedule = "00 16 * * *"; // 17:16 IST Asia/Kolkata
 
 // Create cron job instances
