@@ -93,7 +93,7 @@ const getColorForDay = (day) => {
 };
 
 // Set up the cron job to schedule the question and answer sending
-const questionSchedule = "15 10 * * *"; // 17:15 IST Asia/Kolkata
+const questionSchedule = "30 10 * * *"; // 17:15 IST Asia/Kolkata
 const answerSchedule = "00 16 * * *"; // 17:16 IST Asia/Kolkata
 
 // Create cron job instances
