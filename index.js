@@ -8,7 +8,7 @@ const jsonData = require("./aptitude.json");
 const questions = jsonData.questions;
 
 // Set up the Discord webhook URL
-const webhookUrl = "https://discord.com/api/webhooks/1111595854407671909/5qgrDMvBGQ4Z5_Gn-vllNdt2HUlA7FAgPkIsZhT6eEeGLsrWOyk_TPh4qwuql6hSEG4D";
+const webhookUrl = "https://discord.com/api/webhooks/1111970460490530816/ZU9NuuEjLMAsWpxscmJNXli5fi8AXY-CC0BjZ0uyVkACN3T_WisPZyRXINk08KIDiN7k";
 
 // Counter variable to track the current day
 let currentDay = 1;
